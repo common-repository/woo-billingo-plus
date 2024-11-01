@@ -1,0 +1,2948 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Integration for Szamlazz.hu & WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-04 20:34+0000\n"
+"PO-Revision-Date: 2023-11-14 18:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.1\n"
+"X-Language: hu\n"
+"X-Source-Language: en\n"
+
+#: includes/class-webhooks.php:34
+msgid " Woo Billingo Plus document created"
+msgstr "Woo Billingo Plus dokumentum létrehozva"
+
+#: includes/class-bulk-actions.php:231
+#, php-format
+msgid "%1$s already exists for this order"
+msgstr "Ehhez a rendeléshez már készült %1$s"
+
+#: index.php:2269
+#, php-format
+msgid "%1$s discount with the following coupon code: %2$s"
+msgstr "%1$s kedvezmény a következő kupon kóddal: %2$s"
+
+#: includes/class-bulk-actions.php:239
+#, php-format
+msgid ""
+"%1$s order(s) has been selected to create the following documents: %2$s."
+msgstr "%1$s rendelés lett kijelölve %2$s dokumentum készítésére."
+
+#: includes/class-bulk-actions.php:220
+#, php-format
+msgid ""
+"%1$s order(s) has been selected to create the following documents: %2$s. "
+"Documents are being created. Reload this page and you will see a status "
+"indicator top right, next to your username."
+msgstr ""
+"%1$s rendelés lett kijelölve %2$s dokumentum készítésére. A dokumentumok "
+"készítése folyamatban van. Frissítsd az oldalt és jobb felül a neved mellett "
+"látni fogod, hol tart a folyamat."
+
+#: index.php:2667
+#, php-format
+msgid ""
+"%1$sWoo Billingo Plus is inactive%2$s. The %3$s1$sWooCommerce plugin %4$s "
+"must be active. %5$sPlease install or activate the latest WooCommerce &raquo;"
+"%6$s"
+msgstr ""
+"A %1$sWooCommerce Billingo Plus inaktív%2$s. A %3$sWooCommerce bővítménynek "
+"%4$s aktívnak kell lennie. %5$sTelepítsd és kapcsold be WooCommerce-et "
+"&raquo;%6$s"
+
+#: includes/views/html-notice-bulk.php:24
+#, php-format
+msgid "%s invoice(s) selected for download."
+msgstr "%s számla kijelölve letöltésre."
+
+#: includes/views/html-notice-bulk.php:18
+#, php-format
+msgid "%s invoice(s) selected for printing."
+msgstr "%s számla kijelölve nyomtatásra."
+
+#: includes/views/html-notice-bulk.php:31
+#: includes/views/html-notice-bulk.php:37
+#, php-format
+msgid "%s order(s) selected to create invoices. Documents are being created."
+msgstr ""
+"%s rendelés lett kiválasztva számla készítéshez. A dokumentumok készítése "
+"folyamatban van."
+
+#: includes/views/html-notice-bulk.php:55
+#, php-format
+msgid ""
+"%s order(s) selected to create reverse invoices. Documents are being created."
+msgstr ""
+"%s rendelés lett kiválasztva sztornó számla készítéshez. A dokumentumok "
+"készítése folyamatban van."
+
+#: includes/views/html-admin-sidebar.php:92
+msgid "30 € / year"
+msgstr "30 € / év"
+
+#: includes/emails/invoice-copy.php:15
+#, php-format
+msgid "<strong>Document download link:</strong> %s"
+msgstr "<strong>Dokumentum letöltési linkje:</strong> %s"
+
+#: includes/emails/invoice-copy.php:14
+#, php-format
+msgid "<strong>Document name:</strong> %s"
+msgstr "<strong>Dokumentum neve:</strong> %s"
+
+#: includes/emails/invoice-copy.php:13
+#, php-format
+msgid "<strong>Document type:</strong> %s"
+msgstr "<strong>Dokumentum típusa:</strong> %s"
+
+#: includes/class-grouped-invoice.php:86
+#, php-format
+msgid ""
+"A combined invoice has been created for this order. This invoice also has "
+"line items from the following orders: #%1$s"
+msgstr ""
+"Ehhez a rendeléshez gyűjtőszámla készült. A számlán a következő rendelések "
+"tételei szerepelnek: #%1$s"
+
+#: includes/class-grouped-invoice.php:91
+#, php-format
+msgid ""
+"A combined invoice has been created for this order. You can find the invoice "
+"on the main order: #%1$s"
+msgstr ""
+"Ehhez a rendeléshez egy gyűjtőszámla készült. A számlát a(z) #%1$s számú "
+"rendelésnél találod"
+
+#: includes/views/html-notice-v3.php:12
+msgid "A new Billingo API key is required"
+msgstr "Új Billingo API kulcs szükséges"
+
+#: includes/class-settings.php:446
+msgid ""
+"A reverse invoice will be generated automatically if the order is in this "
+"status."
+msgstr ""
+"Ha a rendelés ebbe a státuszba kerül, akkor automatán létrehozza a sztornó "
+"számlát(természetesen csak akkor, ha már van a rendeléshez számla csinálva)."
+
+#: includes/class-health-check.php:98
+msgid "A WooCommerce Billingo Plus debug mode is turned off."
+msgstr "A Woo Billingo Plus fejlesztői módja ki van kapcsolva."
+
+#: includes/views/html-admin-accounts.php:51
+msgid "Account name"
+msgstr "Fiók neve"
+
+#: includes/class-settings.php:230
+msgid "Account settings"
+msgstr "Fiók beállítások"
+
+#: includes/views/html-metabox.php:91
+msgctxt "Action"
+msgid "Reverse invoice"
+msgstr "Sztornózás"
+
+#: includes/views/html-admin-sidebar.php:78
+msgid "Activate"
+msgstr "Aktiválás"
+
+#: includes/views/html-admin-accounts.php:101
+msgid "Add a new account"
+msgstr "Új fiók hozzáadása"
+
+#: includes/views/html-admin-notes.php:55
+msgid "Add a new note"
+msgstr "Új megjegyzés hozzáadása"
+
+#: includes/views/html-admin-advanced.php:94
+msgid "Add new"
+msgstr "Új hozzáadása"
+
+#: includes/views/html-admin-automations.php:115
+msgid "Add new automation"
+msgstr "Új automatizáció"
+
+#: includes/views/html-admin-vat-overrides.php:87
+msgid "Add new override"
+msgstr "Új áfakulcs felülírás"
+
+#: includes/views/html-admin-notes.php:33
+#: includes/views/html-admin-notes.php:70
+msgid "Add note to invoice, if"
+msgstr "Megjegyzés hozzáadása a számlához, ha az"
+
+#: includes/views/html-admin-notes.php:46
+#: includes/views/html-admin-notes.php:83
+msgid "Add to the end of an existing note"
+msgstr "Hozzáadás a meglévő megjegyzés végéhez"
+
+#: includes/class-helpers.php:78
+msgid "Advance payment"
+msgstr "Előre utalás"
+
+#: includes/class-settings.php:389
+msgid "Advanced settings"
+msgstr "Haladó beállítások"
+
+#: includes/class-settings.php:425
+msgid "Advanced settings to setup automations."
+msgstr "Egyedi automatizálási logikák beállítása"
+
+#: includes/class-settings.php:328
+msgid "Advanced settings to setup VAT rates."
+msgstr "Speciális beállítások az áfakulcsokhoz"
+
+#: includes/views/html-admin-advanced.php:55
+#: includes/views/html-admin-advanced.php:103
+msgctxt "advanced-options"
+msgid "Set"
+msgstr " "
+
+#: includes/views/html-admin-advanced.php:64
+#: includes/views/html-admin-advanced.php:112
+msgctxt "advanced-options"
+msgid "to"
+msgstr "felülírása ezzel:"
+
+#: includes/views/html-admin-automations.php:20
+#, php-format
+msgid "after %1$s status"
+msgstr "%1$s státusznál"
+
+#: includes/views/html-admin-advanced.php:82
+#: includes/views/html-admin-advanced.php:130
+#: includes/views/html-admin-automations.php:103
+#: includes/views/html-admin-automations.php:184
+#: includes/views/html-admin-notes.php:36
+#: includes/views/html-admin-notes.php:73
+#: includes/views/html-admin-vat-overrides.php:75
+#: includes/views/html-admin-vat-overrides.php:136
+msgid "All"
+msgstr "Összes"
+
+#: includes/class-grouped-invoice.php:69
+#, php-format
+msgid "An invoice has been already created for the selected orders(#%1$s)."
+msgstr "A kiválaszott rendeléshez(#%1$s) már készült számla."
+
+#: includes/class-settings.php:235 includes/views/html-admin-accounts.php:52
+#: includes/views/html-admin-accounts.php:71
+#: includes/views/html-admin-accounts.php:117
+msgid "API V3 key"
+msgstr "API V3 kulcs"
+
+#: includes/emails/invoice-copy.php:18 includes/emails/invoice-error.php:12
+msgid "As a reminder, here are your order details:"
+msgstr "Emlékeztetőül a rendelés részletei:"
+
+#: includes/class-settings.php:655
+msgid "At the beginning"
+msgstr "Levél elején"
+
+#: includes/class-settings.php:656
+msgid "At the end"
+msgstr "Levél végén"
+
+#: includes/class-settings.php:613
+msgid "Attach invoices to e-mail"
+msgstr "Számlák csatolása WC levelekhez"
+
+#: includes/views/html-admin-sidebar.php:85
+msgid "Attach PDF invoices to WooCommerce e-mails"
+msgstr "PDF számlák csatolása a WooCommerce e-mailekhez"
+
+#: includes/class-settings.php:579
+msgid "Autofill billing fields based on VAT number"
+msgstr "Adatok kitöltése adószám alapján"
+
+#: includes/class-settings.php:436
+msgid "Automatic billing"
+msgstr "Automata számlakészítés"
+
+#: includes/views/html-admin-sidebar.php:82
+msgid "Automatic invoicing"
+msgstr "Automata számlakészítés"
+
+#: includes/class-settings.php:444
+msgid "Automatic reverse invoice"
+msgstr "Automata sztornózás"
+
+#: includes/views/html-admin-automations.php:15
+msgctxt "Automation trigger"
+msgid "On successful payment"
+msgstr "Sikeres fizetés után"
+
+#: includes/views/html-admin-automations.php:14
+msgctxt "Automation trigger"
+msgid "When order created"
+msgstr "Rendelés létrehozásakor"
+
+#: includes/class-settings.php:417
+msgid "Automatization"
+msgstr "Automatizálás"
+
+#: includes/class-settings.php:261 includes/views/html-admin-advanced.php:11
+msgid "Bank account"
+msgstr "Bankszámlaszám"
+
+#: includes/views/html-admin-accounts.php:53
+#: includes/views/html-admin-accounts.php:74
+#: includes/views/html-admin-accounts.php:120
+msgid "Bank account ID"
+msgstr "Bankszámlaszám ID"
+
+#: includes/views/html-invoice-preview.php:41
+msgid "Bank account number"
+msgstr "Bankszámlaszám"
+
+#: includes/views/html-invoice-preview.php:42
+msgid "Bank name"
+msgstr "Bank neve"
+
+#: includes/class-ipn.php:121
+msgid "Bank Sync"
+msgstr "Bankszinkron"
+
+#: includes/class-helpers.php:75
+msgid "Barion"
+msgstr "Barion"
+
+#: includes/class-helpers.php:76
+msgid "Barter"
+msgstr "Barter"
+
+#: index.php:644
+#, php-format
+msgid "Based on deposit invoice: %s"
+msgstr "Előleg számla alapján: %s"
+
+#: index.php:637
+#, php-format
+msgid "Based on proform invoice: %s"
+msgstr "Díjbekérő alapján: %s"
+
+#: includes/views/html-admin-advanced.php:79
+#: includes/views/html-admin-advanced.php:127
+#: includes/views/html-admin-vat-overrides.php:72
+#: includes/views/html-admin-vat-overrides.php:133
+msgid "Based on the following conditions, if"
+msgstr "A következő feltételek esetén, ha az"
+
+#: includes/class-helpers.php:98
+msgid "Bill of exchange"
+msgstr "Váltó"
+
+#: includes/class-conditions.php:56
+msgid "Billing address"
+msgstr "Számlázási cím"
+
+#: includes/class-conditions.php:63
+msgid "Billing country"
+msgstr "Számlázási ország"
+
+#: includes/class-bulk-actions.php:272
+msgid "Billingo"
+msgstr "Billingo"
+
+#: includes/class-conditions.php:52 includes/views/html-modal-generator.php:52
+#: includes/views/html-metabox.php:141
+msgid "Billingo account"
+msgstr "Billingo fiók"
+
+#: includes/class-ipn.php:97
+msgid "Billingo credit entry successfully recorded(through bank sync)"
+msgstr "Számla fizetettnek jelölve bankszinkron segítségével"
+
+#: index.php:1049
+#, php-format
+msgid "Billingo deposit invoice generated successfully. Invoice number: %s"
+msgstr "Billingo előlegszámla sikeresen létrehozva. Számla sorszáma: %s"
+
+#: includes/class-emails.php:167
+#, php-format
+msgid "Billingo document created - %s"
+msgstr "Billingo dokumentum elkészült - %s"
+
+#: includes/views/html-modal-generator.php:13
+msgid "Billingo document generator"
+msgstr "Billingo dokumentum generátor"
+
+#: index.php:1061
+msgid "Billingo draft successfully generated."
+msgstr "Billingo piszkozat sikeresen létrehozva."
+
+#: includes/views/html-admin-payment-methods.php:20
+msgid "Billingo ID"
+msgstr "Billingo azonosító"
+
+#. Description of the plugin
+msgid "Billingo integráció WooCommerce-hez rengeteg extra funkcióval"
+msgstr "Billingo integráció WooCommerce-hez rengeteg extra funkcióval"
+
+#: index.php:1073
+#, php-format
+msgid "Billingo invoice generated successfully. Invoice number: %s"
+msgstr "Billingo számla sikeresen létrehozva. Számla sorszáma: %s"
+
+#: index.php:953
+#, php-format
+msgid "Billingo invoice generation failed! Error code: %s"
+msgstr "Billingo számlakészítés sikertelen. Hibakód: %s"
+
+#: index.php:473
+#, php-format
+msgid ""
+"Billingo invoice generation failed! Unable to create customer. Error code: %s"
+msgstr ""
+"Billingo számlakészítés sikertelen. Nem sikerült az ügyfelet létrehozni. "
+"Hibakód: %s"
+
+#: includes/class-health-check.php:134
+msgid "Billingo is connected."
+msgstr "Billingo összekapcsolás sikeres."
+
+#: includes/class-background-generator.php:84
+#| msgid "Billingo is generating invoices in the background."
+msgid "Billingo is generating invoices in the background"
+msgstr "A Woo Billingo Plus épp generálja a számlákat a háttérben."
+
+#: includes/class-health-check.php:155
+msgid "Billingo is not connected"
+msgstr "Billingo összekapcsolás sikertelen"
+
+#: index.php:1365
+#, php-format
+msgid "Billingo offer generated successfully. Offer number: %s"
+msgstr ""
+
+#: includes/class-health-check.php:92
+msgid "Billingo Plus debug mode is turned off"
+msgstr "A Woo Billingo Plus fejlesztői mód ki van kapcsolva"
+
+#: includes/class-health-check.php:104
+msgid "Billingo Plus debug mode is turned on"
+msgstr "A Woo Billingo Plus fejlesztői mód be van kapcsolva"
+
+#: index.php:1914
+#, php-format
+msgid "Billingo proform invoice delete failed! Error code: %s"
+msgstr "Billingo proforma számla törlés sikertelen. Hibakód: %s"
+
+#: index.php:1037
+#, php-format
+msgid "Billingo proforma invoice generated successfully. Invoice number: %s"
+msgstr "Billingo díjbekérő sikeresen létrehozva. Számla sorszáma: %s"
+
+#: index.php:1344
+#, php-format
+msgid "Billingo receipt generated successfully. Receipt number: %s"
+msgstr "Billingo nyugta sikeresen létrehozva. Nyugta sorszáma: %s"
+
+#: index.php:1275
+#, php-format
+msgid "Billingo receipt generation failed! Error code: %s"
+msgstr "Billingo nyugtakészítés sikertelen. Hibakód: %s"
+
+#: index.php:1798
+#, php-format
+msgid "Billingo reverse invoice generation failed! Error code: %s"
+msgstr "Billingo sztornó számlakészítés sikertelen! Hibakód: %s"
+
+#: index.php:1382
+#, php-format
+msgid "Billingo waybill generated successfully. Waybill number: %s"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:36
+msgid "Building"
+msgstr "Épület"
+
+#: includes/views/html-admin-sidebar.php:84
+msgid "Bulk download and print"
+msgstr "Csoportos letöltés és nyomtatás"
+
+#: includes/views/html-admin-sidebar.php:83
+msgid "Bulk invoice generation"
+msgstr "Csoportos számlagenerálás"
+
+#: includes/views/html-invoice-preview.php:46
+msgid "Buyer"
+msgstr "Vásárló"
+
+#: includes/views/html-modal-grouped.php:30
+msgid ""
+"By combining the items in the orders below, you can create a single invoice. "
+"Select the order that will be the basis of the combined invoice: it will use "
+"the shipping and billing address of this order when creating the invoice."
+msgstr ""
+"Az alábbi rendelésekben lévő tételekről egyesítve, egy darab számlát "
+"készíthetsz. Válaszd ki azt a rendelést, ami a gyűjtőszámla alapja lesz: "
+"ennek a rendelésenek a szállítási és számlázási címét fogja használni a "
+"számlakészítésnél."
+
+#: includes/views/html-admin-sidebar.php:120
+msgid "Bővebb információk"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:68
+#: includes/views/html-admin-accounts.php:114
+msgid "Can be anything"
+msgstr "Bármi lehet…"
+
+#: includes/class-helpers.php:81
+msgid "Cash"
+msgstr "Készpénz"
+
+#: includes/class-helpers.php:97
+msgid "Cash on delivery"
+msgstr "Utánvét"
+
+#: includes/views/html-metabox-vat.php:32
+msgid "City"
+msgstr "Város"
+
+#: includes/compatibility/class-compatibility.php:18
+msgid "Cloning this object is forbidden."
+msgstr "Cloning this object is forbidden."
+
+#: includes/views/html-modal-generator.php:15
+#: includes/views/html-modal-grouped.php:15
+#: includes/views/html-modal-grouped.php:63
+msgid "Close modal panel"
+msgstr "Bezárás"
+
+#: includes/class-settings.php:745
+msgid "Combined invoice order status"
+msgstr "Gyűjtőszámlához kapcsolódó rendelések státusza"
+
+#: includes/class-conditions.php:32 includes/views/html-admin-accounts.php:34
+msgid "Company"
+msgstr "Céges"
+
+#: includes/class-settings.php:373
+msgid "Company name + name"
+msgstr "Cégnév + név"
+
+#: includes/class-helpers.php:79
+msgid "Compensation"
+msgstr "Kompenzáció"
+
+#: includes/views/html-modal-generator.php:92
+#: includes/views/html-invoice-preview.php:66
+#: includes/views/html-admin-automations.php:73
+#: includes/views/html-admin-automations.php:155
+#: includes/views/html-metabox.php:183
+msgid "Completion date"
+msgstr "Teljesítés dátum"
+
+#: includes/views/html-admin-accounts.php:55
+msgid "Condition"
+msgstr "Feltétel"
+
+#: includes/views/html-admin-automations.php:67
+#: includes/views/html-admin-automations.php:149
+msgid "Conditional logic"
+msgstr "Feltételes mód"
+
+#: includes/views/html-product-options.php:59
+#: includes/views/html-variable-options.php:53
+msgid "Cost on invoice"
+msgstr "Számlán lévő ár"
+
+#: includes/views/html-metabox-vat.php:30
+msgid "Country code"
+msgstr "Országkód"
+
+#: includes/class-helpers.php:80
+msgid "Coupon"
+msgstr "Kupon"
+
+#: includes/views/html-modal-grouped.php:13
+#: includes/views/html-modal-grouped.php:42
+msgid "Create a combined invoice"
+msgstr "Gyűjtőszámla készítése"
+
+#: includes/class-settings.php:689
+msgid ""
+"Create a separate receipt block on Billingo's website under Settings / "
+"Document blocks. If you don't see your document block in the dropdown, click "
+"on the refresh icon."
+msgstr ""
+"Hozz létre egy új nyugtablokkot a Billingo weboldalán a Beállítások / "
+"Bizonylat beállítások / Bizonylattömbök menüben. Ha nem látod a létrehozott "
+"nyugtatömböt, kattints a frissítés ikonra. "
+
+#: includes/class-settings.php:737
+msgid "Create a ZIP file during bulk download"
+msgstr "ZIP fájl készítése csoportos letöltésnél"
+
+#: includes/views/html-metabox.php:223
+msgid "Create an invoice instead"
+msgstr "Számlát csinálok nyugta helyett"
+
+#: includes/class-grouped-invoice.php:18
+msgid "Create Billingo combined invoice"
+msgstr "Billingo Gyűjtőszámla létrehozása"
+
+#: includes/class-bulk-actions.php:31
+msgid "Create Billingo documents"
+msgstr "Billingo dokumentumok létrehozása"
+
+#: includes/class-bulk-actions.php:25
+msgid "Create Billingo invoices"
+msgstr "Billingo számlák készítése"
+
+#: includes/class-bulk-actions.php:26
+msgid "Create Billingo reverse invoices"
+msgstr "Billingo sztornózás"
+
+#: includes/class-settings.php:382
+msgid "Create drafts"
+msgstr "Piszkozat készítése"
+
+#: includes/views/html-metabox.php:131
+msgid "Create invoice"
+msgstr "Számlakészítés"
+
+#: includes/views/html-metabox.php:119
+msgid "Create receipt"
+msgstr "Nyugta létrehozása"
+
+#: includes/views/html-admin-automations.php:54
+#: includes/views/html-admin-automations.php:136
+msgid "creation"
+msgstr "létrehozása"
+
+#: includes/class-helpers.php:74
+msgid "Credit card"
+msgstr "Bankkártya"
+
+#: includes/class-helpers.php:19
+msgid "Croatian"
+msgstr "Horvát"
+
+#: includes/views/html-admin-sidebar.php:103
+msgid "Csomagpontok és címkegenerálás"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:23
+#: includes/views/html-admin-rounding.php:19
+msgid "Currency"
+msgstr "Pénznem"
+
+#: includes/class-settings.php:424
+msgid "Custom automations"
+msgstr "Egyedi automatizálás"
+
+#: includes/class-settings.php:753
+msgid "Custom order statuses"
+msgstr "Egyedi rendelés státuszok"
+
+#: includes/class-settings.php:327
+msgid "Custom VAT rate overrrides"
+msgstr "Egyedi áfakulcs felülírás"
+
+#: includes/views/html-admin-automations.php:83
+#: includes/views/html-admin-automations.php:88
+#: includes/views/html-admin-automations.php:169
+msgid "day"
+msgstr "nap"
+
+#: includes/views/html-admin-sidebar.php:56
+msgid "Deactivate license"
+msgstr "Deaktiválás"
+
+#: includes/class-helpers.php:82
+msgid "Deduction"
+msgstr "Levonás"
+
+#: includes/class-settings.php:290
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: includes/class-settings.php:301
+msgid "Default completion date"
+msgstr "Alapértelmezett teljesítési idő"
+
+#: includes/class-settings.php:717
+msgid "Delayed invoice generation"
+msgstr "Késleltetett számlakészítés"
+
+#: includes/views/html-admin-advanced.php:73
+#: includes/views/html-admin-advanced.php:121
+#: includes/views/html-admin-automations.php:69
+#: includes/views/html-admin-automations.php:151
+#: includes/views/html-admin-notes.php:40
+#: includes/views/html-admin-notes.php:77
+#: includes/views/html-admin-vat-overrides.php:53
+#: includes/views/html-admin-vat-overrides.php:114
+msgid "delete"
+msgstr "törlés"
+
+#: includes/class-settings.php:732
+msgid "Delete settings"
+msgstr "Beállítások törlése"
+
+#: includes/class-conditions.php:48 includes/class-helpers.php:32
+#: includes/emails/email-billingo-section.php:26
+#: includes/views/html-admin-payment-methods.php:24
+#: includes/views/html-modal-generator.php:43
+#: includes/views/html-metabox.php:200
+#: includes/emails/plain/email-billingo-section.php:22
+msgid "Deposit invoice"
+msgstr "Előlegszámla"
+
+#: includes/class-settings.php:636
+msgid "Deposit invoice pairing"
+msgstr "Előlegszámla csatolása"
+
+#: index.php:1046
+msgid ""
+"Deposit invoice successfully generated and sent to the customer via e-mail."
+msgstr "Előlegszámla sikeresen létrehozva és elküldve a vásárlónak e-mailben."
+
+#: index.php:1046
+msgid "Deposit invoice successfully generated."
+msgstr "Előlegszámla sikeresen létrehozva."
+
+#: includes/views/html-invoice-preview.php:79
+msgid "Description"
+msgstr "Megnevezés"
+
+#: includes/class-settings.php:722
+msgid "Developer mode"
+msgstr "Fejlesztői mód"
+
+#: includes/views/html-invoice-preview.php:162
+msgid "Development mode details:"
+msgstr "Fejlesztői mód számla adatok:"
+
+#: includes/class-health-check.php:26
+#, php-format
+msgid ""
+"Diagnostic information related to the Woo Billingo Plus extension. If you "
+"have some questions or something is not working correctly, please forward "
+"these details too: <a href=\"%1$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Support</a>"
+msgstr ""
+"Diagnosztikai információk a Billingo integrációhoz kapcsolódóan. Ha kérdésed "
+"van vagy valami nem működik, mellékeld ezeket az adatokat is: <a "
+"href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">támogatás</a>"
+
+#: includes/views/html-metabox.php:218
+msgid "Disable invoicing"
+msgstr "Számlakészítés kikapcsolása"
+
+#: index.php:2261 includes/class-settings.php:495
+#: includes/views/html-admin-vat-overrides.php:13
+msgid "Discount"
+msgstr "Kedvezmény"
+
+#: includes/class-settings.php:486
+msgid "Discount as a separate line item"
+msgstr "Kupon külön tételként"
+
+#: includes/class-settings.php:499
+msgid "Discount line item description"
+msgstr "Kupon tétel leírása"
+
+#: includes/class-settings.php:492
+msgid "Discount line item name"
+msgstr "Kupon tétel neve"
+
+#: includes/class-settings.php:506
+msgid "Discounted product note"
+msgstr "Akciós termék megjegyzés"
+
+#: includes/class-settings.php:481
+msgid "Discounts"
+msgstr "Kuponok"
+
+#: includes/views/html-notice-migrated.php:9
+#: includes/views/html-notice-error.php:8 includes/views/html-notice-v3.php:11
+#: includes/views/html-notice-welcome.php:9
+msgid "Dismiss"
+msgstr "Elrejtés"
+
+#: includes/class-settings.php:516
+msgid "Do not create an invoice for free orders"
+msgstr "Ingyenes rendelésnél ne készüljön számla"
+
+#: includes/views/html-admin-payment-methods.php:25
+msgid "DO NOT generate automatically"
+msgstr "NE számlázzon automatán"
+
+#: includes/views/html-admin-accounts.php:54
+#: includes/views/html-admin-accounts.php:77
+#: includes/views/html-admin-accounts.php:123
+msgid "Document block ID"
+msgstr "Számlatömb ID"
+
+#: includes/class-conditions.php:44 includes/views/html-modal-generator.php:32
+#: includes/views/html-metabox.php:189
+msgid "Document type"
+msgstr "Dokumentum típusa"
+
+#: includes/emails/invoice-copy.php:10
+#, php-format
+msgid ""
+"Document(%2$s - %3$s) for order #%1$s created successfully created. The PDF "
+"file is attached to this email."
+msgstr ""
+"A #%1$s sorszámú rendeléshez tartozó dokumentum(%2$s - %3$s) sikeresen "
+"létrehozva. Csatolmányban találod."
+
+#: index.php:2046 includes/views/html-admin-sidebar.php:167
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: includes/views/html-metabox-vat.php:39
+msgid "Door"
+msgstr "Ajtó"
+
+#: includes/views/html-notice-bulk.php:25
+msgid "Download"
+msgstr "Letöltés"
+
+#: includes/class-bulk-actions.php:28
+msgid "Download Billingo invoices"
+msgstr "Billingo számlák letöltése"
+
+#: includes/class-settings.php:598
+msgid "Download documents"
+msgstr "Számlák letöltése"
+
+#: includes/class-settings.php:727
+msgid "Download icons in the tools column"
+msgstr "Számla gombok a műveletek oszlopban"
+
+#: includes/class-helpers.php:31 includes/views/html-metabox.php:204
+msgid "Draft"
+msgstr "Piszkozat"
+
+#: index.php:1058
+msgid "Draft successfully generated."
+msgstr "Piszkozat sikeresen létrehozva."
+
+#: includes/views/html-invoice-preview.php:63
+msgid "Due date"
+msgstr "Fizetési határidő"
+
+#: includes/views/html-admin-sidebar.php:168
+msgid "E-mail (support@visztpeter.me)"
+msgstr "E-mail (support@visztpeter.me)"
+
+#: includes/class-settings.php:711
+msgid "E-mail address for error notifications"
+msgstr "Email cím hibajelzéshez"
+
+#: includes/class-settings.php:651
+msgid "E-mail link position"
+msgstr "E-mail link pozíció"
+
+#: includes/class-settings.php:674
+msgid "E-Receipt"
+msgstr "E-nyugta"
+
+#: includes/class-settings.php:280 includes/class-settings.php:291
+#: includes/views/html-modal-generator.php:75
+#: includes/views/html-metabox.php:165
+msgid "Electronic"
+msgstr "Elektronikus"
+
+#: includes/class-helpers.php:16
+msgid "English"
+msgstr "Angol"
+
+#: includes/views/html-admin-sidebar.php:155
+msgid ""
+"Enjoyed <strong>Woo Billingo Plus</strong>? Please leave us a ★★★★★ rating. "
+"We appreciate your support!"
+msgstr ""
+"Tetszik a <strong>Woo Billingo Plus</strong> bővítmény? Kérlek, értékeld a "
+"WordPress.org-on. Csak egy perc az egész. Köszönöm!"
+
+#: includes/views/html-product-options.php:35
+#: includes/views/html-variable-options.php:32
+msgid ""
+"Enter a custom name that will appear on the invoice. Default is the name of "
+"the product."
+msgstr ""
+"Itt módosíthatod a tétel nevét, ha mást szeretnél a számlára írni, mint a "
+"termék neve."
+
+#: includes/class-product-options.php:37
+msgid ""
+"Enter a custom name that will appear on the invoice. Default is the name of "
+"the shipping method."
+msgstr ""
+"Itt módosíthatod a tétel nevét, ha mást szeretnél a számlára írni, mint a "
+"fent megadott szállítási mód neve."
+
+#: includes/class-settings.php:232
+msgid "Enter the API Key V3 that you generated on Billingo."
+msgstr "Add meg az API V3 kulcsot, amit a Billingo oldalán generáltál."
+
+#: includes/views/html-admin-vat-overrides.php:57
+#: includes/views/html-admin-vat-overrides.php:118
+msgid "Entitlement"
+msgstr "Áfakulcs jogcíme"
+
+#: includes/class-conditions.php:115
+msgid "Equal"
+msgstr "Egyenlő"
+
+#: includes/class-settings.php:338
+msgid "EU vat rate"
+msgstr "EU áfakulcs"
+
+#: includes/class-settings.php:344
+msgid "EUK vat rate"
+msgstr "EUK áfakulcs"
+
+#: includes/views/html-admin-accounts.php:26
+msgid "Euro"
+msgstr "Euró"
+
+#: index.php:1523 index.php:1529
+msgid "Failed invoice generation"
+msgstr "Sikertelen számlakészítés"
+
+#: index.php:1006 index.php:1830
+msgid "Failed to create a download link for the invoice."
+msgstr "Nem sikerült létrehozni a letöltési linket a számlához."
+
+#: index.php:1314
+msgid "Failed to create a download link for the receipt."
+msgstr "Nem sikerült létrehozni a letöltési linket a nyugtához."
+
+#: index.php:1796
+msgid "Failed to create a reverse invoice."
+msgstr "Nem sikerült sztornó számlát készíteni."
+
+#: index.php:1912
+msgid "Failed to delete a proform invoice."
+msgstr "Nem sikerült törölni a díjbekérőt."
+
+#: index.php:976 index.php:1983
+msgid "Failed to email invoice."
+msgstr "Nem sikerült elküldeni emailben a számlát."
+
+#: index.php:1726
+#, php-format
+msgid "Failed to mark the Billingo invoice as paid! Error code: %s"
+msgstr "Nem sikerült fizetettnek jelölni a Billingo számlát! Hibakód: %s"
+
+#: index.php:1723
+msgid "Failed to mark the invoice as paid."
+msgstr "Nem sikerült fizetettnek jelölni a számlát."
+
+#: includes/class-settings.php:891
+msgid ""
+"Failed to retrieve available bank accounts. Check the api key or see if "
+"you've already created a bank account!"
+msgstr ""
+"Nem sikerült a bankszámlaszámokat lekérni. Ellenőrizd, hogy megfelelő API "
+"kulcsot adtál e meg, illetve hogy a Billingo oldalán létrehoztál-e "
+"bankszámlát a beállításokban. "
+
+#: includes/class-settings.php:894
+msgid "Failed to retrieve available invoice blocks. Check the api key!"
+msgstr ""
+"Nem sikerült lekérni az elérhető számlatömböket. Ellenőrizd az API kulcsot!"
+
+#: includes/views/html-admin-vat-overrides.php:14
+msgid "Fee"
+msgstr "Díj"
+
+#: includes/views/html-metabox-vat.php:38
+msgid "Floor"
+msgstr "Emelet"
+
+#: includes/views/html-admin-accounts.php:25
+msgid "Forint"
+msgstr "Forint"
+
+#: includes/views/html-admin-sidebar.php:169
+msgid "Forum thread on WordPress.org"
+msgstr "Fórum a WordPress.org-on"
+
+#: includes/class-helpers.php:18
+msgid "French"
+msgstr "Francia"
+
+#: includes/class-settings.php:258
+msgid "General settings related to invoices."
+msgstr "A számlával kapcsolatos alapértelmezett beállítások."
+
+#: includes/views/html-modal-generator.php:102
+msgid "Generate documents"
+msgstr "Dokumentumok készítése"
+
+#: includes/class-background-generator.php:79
+msgid "Generating invoices..."
+msgstr "Számlák készítése..."
+
+#: includes/class-helpers.php:15
+msgid "German"
+msgstr "Német"
+
+#: includes/views/html-notice-welcome.php:14
+msgid "Go to Settings"
+msgstr "Tovább a beállításokhoz"
+
+#: includes/views/html-notice-v3.php:17
+msgid "Go to settings"
+msgstr "Tovább a beállításokhoz"
+
+#: includes/views/html-modal-grouped.php:27
+msgid "Go to the order"
+msgstr "Tovább a rendeléshez"
+
+#: includes/views/html-invoice-preview.php:84
+msgid "Gross price"
+msgstr "Bruttó ár"
+
+#: includes/class-helpers.php:77
+msgid "Health insurance card"
+msgstr "Egészségpénztári kártya"
+
+#: includes/views/html-modal-generator.php:82
+msgid "Here you can override the note specified in settings"
+msgstr "Itt felülírhatod a bővítmény beállításaiban megadott megjegyzést"
+
+#: includes/views/html-metabox.php:173
+msgid ""
+"Here you can override the note specified in settings. Start with a + sign to "
+"append to the exising note."
+msgstr ""
+"Felülírhatod a beállításokban megadott megjegyzést. Ha + karakterrel kezded, "
+"akkor a végéhez írja hozzá pluszban. "
+
+#: includes/class-settings.php:693
+msgid "Hidden checkout fields"
+msgstr "Rejtett pénztár mezők"
+
+#: includes/class-settings.php:511
+msgid "Hide free shipping"
+msgstr "Ingyenes szállítás elrejtése"
+
+#: includes/views/html-product-options.php:50
+#: includes/views/html-variable-options.php:45
+msgid "Hide from invoice"
+msgstr "Elrejtés számlán"
+
+#: includes/views/html-admin-sidebar.php:158
+msgid "Hide this message"
+msgstr "Ne mutassa többet"
+
+#. URI of the plugin
+msgid "http://visztpeter.me"
+msgstr "http://visztpeter.me"
+
+#: includes/class-helpers.php:14
+msgid "Hungarian"
+msgstr "Magyar"
+
+#: includes/views/html-notice-migrate.php:13
+msgid "I don't want to migrate"
+msgstr "Nem szeretném migrálni az adatokat"
+
+#: includes/class-settings.php:239
+msgid "I have multiple accounts"
+msgstr "Több fiókot használok"
+
+#: includes/class-receipt.php:46
+msgid "I need an invoice instead of a receipt"
+msgstr "Nyugta helyett szeretnék számlát kérni"
+
+#: includes/class-settings.php:476
+msgid ""
+"If an invoice was marked as paid in Billingo, the order will be marked with "
+"this status."
+msgstr ""
+"Ha a Billingo felületén egy számla fizetettnek lett jelölve, a WooCommerce "
+"rendelés ebbe a státuszba kerül."
+
+#: includes/views/html-product-options.php:44
+#: includes/views/html-variable-options.php:40
+msgid ""
+"If checked, no invoice will be automatically issued for the order if this "
+"product is included in the order."
+msgstr ""
+"Ha be van pipálva, nem készül automatán számla a rendeléshez, ha ez a termék "
+"is benne van a rendelésben."
+
+#: includes/views/html-product-options.php:53
+#: includes/views/html-variable-options.php:48
+msgid "If checked, this product will be hidden on the invoices."
+msgstr "Ha be van pipálva, a számlán nem fog látszódni ez a termék."
+
+#: includes/class-settings.php:248
+msgid ""
+"If the condition is not matched, it will use the default API Key for "
+"automatic invoice generation. You can change the account if you are creating "
+"an invoice manually."
+msgstr ""
+"Ha a feltétel nem teljesül, akkor az alapértelmezett Billingo fiókot fogja "
+"használni az automatikus számlakészítésnél. Manuális számlakészítéskor "
+"kiválasztható, hogy melyik fiókot használod."
+
+#: includes/class-settings.php:582
+msgid ""
+"If the customer enters a VAT number, it will validate it and also prefill "
+"the address and company name fields automatically."
+msgstr ""
+"Ha a vásárló megadta az adószámot, akkor a pénztár oldalon automatikusan "
+"kitölti a cégnevet, irányítószámot, várost és címet."
+
+#: includes/class-settings.php:526
+msgid ""
+"If the customer is a company, you are required to collect a VAT number. You "
+"can use these options to show an extra field on the checkout form."
+msgstr ""
+"Céges rendeléseknél kötelező adószámot bekérni, ha van a vevőnek. Az alábbi "
+"opciókkal egy adószám mezőt lehet hozzáadni a pénztár űrlaphoz."
+
+#: includes/class-settings.php:708
+msgid ""
+"If the order of the name is not correct on the invoice, you can use this "
+"option to switch the first/last name."
+msgstr ""
+"Ha rosszul jelenik meg a számlán a vevő neve, ezzel az opcióval meg lehet "
+"cserélni a vezetéknevet és a keresztnevet."
+
+#: includes/class-settings.php:345
+msgid ""
+"If there's 0% VAT on the invoice and the customer's billing and shipping "
+"location is outside of the EU, it will use the EUK vat rate."
+msgstr ""
+"Ha a számlán 0% áfa van és az Európai Unión kívül van a számlázási és "
+"szállítási ország, akkor EUK áfakulcsot alkalmazzon."
+
+#: includes/class-settings.php:339
+msgid ""
+"If there's 0% VAT on the invoice, but the customer entered an EU VAT Number, "
+"it will use the EU vat rate instead of 0%."
+msgstr ""
+"Ha a számlán 0% áfa van és adott meg EU-s adószámot a vásárló, akkor EU "
+"áfakulcsot alkalmazzon."
+
+#: includes/class-settings.php:375
+msgid ""
+"If turned on and the buyer enters a company name, the regular first/last "
+"name will be visible after the company name on the invoice."
+msgstr ""
+"Ha be van kapcsolva és vásárláskor cégnév van megadva, a vásárló nevét is "
+"feltünteti egy kötőjellel a cégnév után a számlán."
+
+#: includes/class-settings.php:554
+msgid ""
+"If turned on and you entered your Online Invoice credentials and the "
+"customer enters a VAT number, it will validate it using the NAV API."
+msgstr ""
+"Ha be van pipálva és megadtad az Online Számla adatokat, akkor az adószámot "
+"nem csak formailag ellenőrzi, hanem lekéri a NAV-tól a hozzá tartozó "
+"adatokat és ellenőrzi, hogy valós e az adószám."
+
+#: includes/class-settings.php:594
+msgid ""
+"If turned on, Billingo will email the customer about the invoice "
+"automatically."
+msgstr ""
+"Ha be van kapcsolva, akkor a vásárlónak a Billingo kiküldi a számlaértesítőt "
+"automatán."
+
+#: includes/class-settings.php:384
+msgid ""
+"If turned on, during automatic invoice generation, it will create drafts "
+"instead of real invoices. You can still create invoices manually."
+msgstr ""
+"Ha be van kapcsolva, akkor éles számla helyett piszkozatokat készít "
+"automatikus számlakészítésnél. Manuálisan továbbra is lehet rendes számlát "
+"készíteni, de az alapértelmezett érték a piszkozat lesz."
+
+#: includes/class-settings.php:734
+msgid ""
+"If turned on, during plugin uninstall it will also delete all settings from "
+"the database."
+msgstr ""
+"Ha be van kapcsolva, akkor a bővítmény törlése esetén a tárolt beállításokat "
+"is le fogja törölni az adatbázisból."
+
+#: includes/class-settings.php:518
+msgid "If turned on, it won't create an invoice automatically for free orders."
+msgstr ""
+"Ha be van kapcsolva, akkor 0 ft-os végösszegű rendelésnél automatikusan "
+"kikapcsolja a számlakészítést."
+
+#: includes/class-settings.php:489
+msgid ""
+"If turned on, the discount will be a new separate negative line item instead "
+"of the reduced prices shown for each order item."
+msgstr ""
+"Ha be van kapcsolva, akkor a rendeléshez használt kupont külön tételként "
+"tünteti fel a számlán, a vásárolt tételeknél pedig az eredeti árat fogja "
+"mutatni, nem a kedvezménnyel levontat."
+
+#: includes/class-settings.php:503
+msgid ""
+"If turned on, the discount will be a new separate negative order item and "
+"you can change it's description here. Default value: {kedvezmeny_merteke} "
+"discount with the following coupon code: {kupon}"
+msgstr ""
+"Rendeléshez használt kupont külön tételként tünteti fel a számlán, ennek a "
+"tételnek a leírását adhatod meg itt. Alapértelmezett: {kedvezmeny_merteke} "
+"kedvezmény a következő kupon kóddal: {kupon}"
+
+#: includes/class-settings.php:724
+msgid ""
+"If turned on, the generated XML file will be logged in WooCommerce / Status "
+"/ Logs. Can be used to debug issues."
+msgstr ""
+"Ha be van kapcsolva, akkor a Billingo-nak küldött adatokat naplózni fogja a "
+"bővítmény, amit a WooCommerce / Állapot / Naplók menüpontban találsz."
+
+#: includes/class-settings.php:719
+msgid ""
+"If turned on, the invoice will be generated in the background process, so "
+"the customer can reach the thank you page faster during checkout. Keep in "
+"mind that in this case, the invoice is not ready yet when the WooCommerce e-"
+"mail is sent, so make sure you have the email notification option turned on."
+msgstr ""
+"Ha be van kapcsolva, akkor a számlát nem a vásárlás közben, hanem után "
+"készíti el automatikusan, így a vásárló sokkal gyorsabban jut el a "
+"\"Köszönöm\" oldalra. Fontos, hogy ebben az esetben nem lehet a számlát a "
+"WooCommerce levelekhez csatolni, mert azokat előbb kiküldi a vásárlónak, "
+"minthogy a számla elkészült volna, tehát használd a Billingo féle "
+"számlaértesítőt."
+
+#: includes/class-settings.php:358
+msgid ""
+"If turned on, the language code stored by WPML, Polylang, or Translatepress "
+"will be used to create the invoice."
+msgstr ""
+"Ha be van kapcsolva, akkor a WPML vagy a Polylang által a rendelés adataiban "
+"tárolt nyelvkódot fogja használja a számla létrehozásához."
+
+#: includes/class-settings.php:600
+msgid ""
+"If turned on, the PDF files will be downloaded into the wp-content/wc-"
+"billingo-plus folder, so it can be attached to WooCommerce emails and you "
+"can use the bulk download and print features. If not turned on, it will "
+"store only the link that redirects to Billingo's website."
+msgstr ""
+"Ha be van kapcsolva, akkor a PDF fájlt letölti a webáruházadba az "
+"uploads/wc_billingo_plus mappába. Ha nincs bekapcsolva, akkor csak a "
+"Billingo oldalára mutató letöltés linket tárolja el. Fontos, hogy 1 perc "
+"alatt maximum 10 számlát lehet letölteni. Tehát ha a munkafolyamatodban "
+"egyszerre sok rendelést teljesítész, ne használd ezt az opciót."
+
+#: includes/class-settings.php:662
+msgid ""
+"If turned on, the user can download the invoices once he/she is logged in on "
+"the website, under the My Orders page."
+msgstr ""
+"Ha be van kapcsolva, akkor a díjbekérőt és a számlát is le tudja tölteni a "
+"felhasználó belépés után, a Rendeléseim menüben."
+
+#: includes/class-settings.php:540
+msgid ""
+"If turned on, the VAT number field will be visible by default even if "
+"there's no company name entered yet."
+msgstr ""
+"Ha be van kapcsolva, akkor az adószám mező akkor is látszódni fog, ha még "
+"nem adott meg cégnevet a vásárló."
+
+#: includes/class-settings.php:458
+msgid ""
+"If turned on, this extension will check for unpaid invoices and if it was "
+"marked as paid in Billingo, it will be stored in the order data too."
+msgstr ""
+"Ha be van kapcsolva, akkor a fizetetlen számlákat ellenőrizni fogja a "
+"Billingo rendszerében és ha ott fizetettre lett jelölve, akkor frissíteni "
+"fogja a számlát a WooCommerce-ben is."
+
+#: includes/class-settings.php:513
+msgid "If turned on, this will hide the free shipping invoice line item."
+msgstr ""
+"Ha be van kapcsolva, akkor nem tüntetni fel az ingyenes szállításra "
+"vonatkozó tételt a számlán."
+
+#: includes/class-settings.php:755
+msgid ""
+"If you are using a custom order status extension and the automation you "
+"setup for that status won't trigger, try to add the slug of your custom "
+"status. You can add multiple, separated with a comma."
+msgstr ""
+"Ha használsz valamilyen extra rendelés státuszt és a beállított "
+"automatizálás nem fut le, itt megadhatod manuálisan a státusz azonosítókat. "
+"Vesszővel elválasztva többet is megadhatsz. "
+
+#: includes/class-settings.php:750
+msgid ""
+"If you create a combined invoice, the related order statuses will change to "
+"this."
+msgstr ""
+"Egy gyűjtőszámla létrehozása után a hozzá kapcsolódó rendelések státuszát "
+"megváltoztatja az itt beállított értékre."
+
+#: includes/views/html-admin-sidebar.php:13
+msgid ""
+"If you don't need to charge sales tax, you can set a fixed VAT rate in the "
+"settings, like AAM. If you need percentage-based VAT rates, or you have a "
+"more complicated situation, you need to configure the WooCommerce TAX "
+"settings properly. Here is a guide to do this:"
+msgstr ""
+"Ha áfakörön kívül vagy, akkor válassz egy fix áfakulcsot(pl AAM). Ha "
+"százalékos áfakulcsokat szeretnél beállítani, akkor pedig engedélyezned kell "
+"a WooCommerce-ben az adókat és konfigurálni kell az áfakulcsokat. Erről itt "
+"találsz egy bővebb leírást:"
+
+#: includes/class-vat-number.php:143
+msgid "If you enter a company name, the VAT number field is required."
+msgstr ""
+"Ha a cégnév mező ki van töltve, akkor az adószámot is kötelező megadni."
+
+#: includes/class-vat-number.php:147
+msgid "If you enter a VAT number, the company name field is required."
+msgstr ""
+"Ha az adószám mező ki van töltve, akkor a cégnevet is kötelező megadni."
+
+#: includes/class-settings.php:714
+msgid ""
+"If you enter an email address, you will receive a notification if there was "
+"an error generating an invoice. Leave it empty if you don't need this."
+msgstr ""
+"Ha megadsz egy email címet, akkor ide küld a rendszer egy levelet, ha volt a "
+"webáruházban egy sikertelen automata számlakészítés. Hagyd üresen, ha nem "
+"szeretnél emailt kapni."
+
+#: includes/views/html-admin-sidebar.php:67
+msgid ""
+"If you have already purchased the PRO version, enter the license key and the "
+"e-mail address used to purchase:"
+msgstr ""
+"Ha már megvásároltad, add meg a termékkulcsot és a vásárláshoz használt e-"
+"mail címet:"
+
+#: includes/views/html-admin-sidebar.php:59
+msgid ""
+"If you want to activate the license on another website, you must first "
+"deactivate it on this website."
+msgstr ""
+"Ha egy másik oldalon szeretnéd aktiválni a kulcsot, előtte deaktiválnod kell "
+"ezen az oldalon."
+
+#: includes/class-settings.php:740
+msgid ""
+"If you want to download multiple invoices at once, this option will create a "
+"ZIP file with separate PDF files(the default option will merge all invoices "
+"into a single PDF)."
+msgstr ""
+"Ha be van kapcsolva, akkor a számlák csoportos letöltésénél egy ZIP fájlt "
+"készít, amiben az összes számla PDF külön-külön fájlként megtalálható."
+
+#: includes/class-conditions.php:31 includes/views/html-admin-accounts.php:33
+msgid "Individual"
+msgstr "Magánszemély"
+
+#: includes/class-settings.php:606
+msgid "Insert invoices into e-mails"
+msgstr "Számlák beillesztése az e-mailekbe"
+
+#: includes/class-conditions.php:58
+msgid "Inside the EU"
+msgstr "EU-n belül"
+
+#: includes/class-conditions.php:46 includes/class-helpers.php:29
+#: includes/emails/email-billingo-section.php:11
+#: includes/views/html-modal-generator.php:35
+#: includes/views/html-notice-bulk.php:45 includes/views/html-metabox.php:192
+#: includes/views/html-modal-grouped.php:26
+#: includes/emails/plain/email-billingo-section.php:10
+msgid "Invoice"
+msgstr "Számla"
+
+#: includes/views/html-metabox.php:130
+msgctxt "Invoice"
+msgid "Are you sure?"
+msgstr "Biztosan létrehozod a számlát?"
+
+#: includes/class-settings.php:268 includes/class-settings.php:685
+#: includes/views/html-admin-advanced.php:13
+msgid "Invoice block"
+msgstr "Számlatömb"
+
+#: includes/views/html-admin-automations.php:27
+msgctxt "Invoice complete date type"
+msgid "Document created"
+msgstr "Dokumentum létrehozása"
+
+#: includes/class-settings.php:306
+msgctxt "Invoice complete date type"
+msgid "Document created(today)"
+msgstr "Dokumentum létrehozása(mai dátum)"
+
+#: includes/class-settings.php:304 includes/views/html-admin-automations.php:25
+msgctxt "Invoice complete date type"
+msgid "Order created"
+msgstr "Rendelés létrehozásának ideje"
+
+#: includes/class-settings.php:305 includes/views/html-admin-automations.php:26
+msgctxt "Invoice complete date type"
+msgid "Payment complete"
+msgstr "Rendelés fizetve lett"
+
+#: includes/class-settings.php:666
+msgid "Invoice forwarding"
+msgstr "Számlák továbbítása"
+
+#: includes/views/html-notice-error.php:9
+msgid "Invoice generation failed"
+msgstr "Sikertelen számlakészítés"
+
+#: index.php:965
+msgid "Invoice generation failed for an unknown reason."
+msgstr "Valamiért nem sikerült létrehozni a számlát."
+
+#: index.php:951
+msgid "Invoice generation failed."
+msgstr "Sikertelen számlakészítés."
+
+#: includes/class-ajax.php:89
+msgid "Invoice generation turned off."
+msgstr "Számlakészítés kikapcsolva."
+
+#: includes/class-ajax.php:85
+msgid "Invoice generation turned on."
+msgstr "Számlakészítés visszakapcsolva."
+
+#: includes/class-background-generator.php:79
+msgid "Invoice generation was successful"
+msgstr "A számlák elkészültek"
+
+#: includes/class-conditions.php:40 includes/class-settings.php:351
+msgid "Invoice language"
+msgstr "Számla nyelve"
+
+#: index.php:1687 index.php:1770 index.php:1967
+msgid "Invoice not found."
+msgstr "Nem található a számla."
+
+#: includes/class-settings.php:592 includes/views/html-metabox.php:79
+msgid "Invoice notification"
+msgstr "Számlaértesítő"
+
+#: includes/views/html-invoice-preview.php:26
+msgid "Invoice number"
+msgstr "Sorszám"
+
+#: includes/class-settings.php:621
+msgid "Invoice pairing"
+msgstr "Végszámla csatolása"
+
+#: includes/views/html-invoice-preview.php:16
+msgid "Invoice preview"
+msgstr "Számla minta"
+
+#: includes/views/html-metabox.php:127
+msgctxt "Invoice preview"
+msgid "Preview"
+msgstr "Előnézet"
+
+#: includes/views/html-invoice-preview.php:25
+msgctxt "Invoice preview title"
+msgid "Preview"
+msgstr "Számla előnézet"
+
+#: includes/class-settings.php:256
+msgid "Invoice settings"
+msgstr "Számla beállítások"
+
+#: includes/class-settings.php:587
+msgid "Invoice sharing"
+msgstr "Számla megosztás"
+
+#: index.php:1070
+msgid "Invoice successfully generated and sent to the customer via e-mail."
+msgstr "Számla sikeresen létrehozva és elküldve a vásárlónak e-mailben."
+
+#: index.php:1070
+msgid "Invoice successfully generated."
+msgstr "Számla sikeresen létrehozva."
+
+#: index.php:1734
+msgid "Invoice successfully marked as paid."
+msgstr "Számla sikeresen fizetettnek jelölve."
+
+#: includes/class-settings.php:275
+msgid "Invoice type"
+msgstr "Számla típusa"
+
+#: includes/class-settings.php:294
+msgid ""
+"Invoice type for company orders(if the customer entered a company name at "
+"the checkout form, it's a company order)."
+msgstr ""
+"Céges rendelés esetén a számla típusa. A rendelés akkor céges, ha volt "
+"megadva cégnév."
+
+#: includes/class-settings.php:285
+msgid "Invoice type on company orders"
+msgstr "Számla típusa céges rendelésnél"
+
+#: includes/class-background-generator.php:85
+msgid "Invoices generated successfully. Reload the page to see the invoices."
+msgstr ""
+"Számlák elkészültek a háttérben. Frissítsd az oldalt, hogy lásd a számlákat."
+
+#: includes/class-settings.php:660
+msgid "Invoices in My Orders"
+msgstr "Számlák a profilban"
+
+#: index.php:2459
+msgid "Invoices not required for free orders"
+msgstr "Ingyenes rendeléshez nem kell számla"
+
+#: includes/views/html-metabox.php:21
+msgid "Invoicing has been disabled for this order because:"
+msgstr "A számlakészítés ennél a rendelésnél ki lett kapcsolva, mert:"
+
+#: includes/views/html-invoice-preview.php:60
+msgid "Issue date"
+msgstr "Kiállítás dátuma"
+
+#: includes/views/html-admin-sidebar.php:165
+msgid ""
+"It is important to point out that this extension was not created by Billingo,"
+" so if you have any questions about the operation of the extension, please "
+"contact me at one of the following contacts:"
+msgstr ""
+"Fontos kiemelni, hogy ezt a bővítményt nem a Billingo készítette, ezért ha a "
+"bővítmény működésével kapcsolatban van kérdésed, akkor velem vedd fel a "
+"kapcsolatot az alábbi elérhetőségek valamelyikén:"
+
+#: includes/class-settings.php:533
+msgid ""
+"It will be collected at the end of the checkout form. It is stored in the "
+"order details and will be visible on the invoice too. If you need to change "
+"this after the order has been created, you can use the \\\"adoszam\\\" "
+"custom field"
+msgstr ""
+"A számlázási adatok alján egy új mezőben lesz bekérve. Eltárolja a rendelés "
+"adataiban, illetve számlára is ráírja. Ha kézzel kell megadni utólag a "
+"rendeléskezelőben, akkor az egyedi mezőknél az \"adoszam\" mezőt kell "
+"kitölteni."
+
+#: includes/class-settings.php:465
+msgid ""
+"It will check for paid invoices every X minutes in the Billingo system. "
+"Recommended value is 30 minutes."
+msgstr ""
+"Ekkora időközönként ellenőrzi a Billingo számlákat. Javasolt érték 30 perc. "
+
+#: includes/class-helpers.php:17
+msgid "Italian"
+msgstr "Olasz"
+
+#: includes/views/html-admin-advanced.php:12
+#: includes/views/html-modal-generator.php:63
+#: includes/views/html-metabox.php:153
+msgid "Language"
+msgstr "Számla nyelve"
+
+#: includes/views/html-admin-sidebar.php:157
+msgid "Leave a review"
+msgstr "Értékelem!"
+
+#: includes/views/html-admin-sidebar.php:31
+#: includes/views/html-admin-sidebar.php:75
+msgid "License key"
+msgstr "Licensz kulcs"
+
+#: includes/views/html-admin-sidebar.php:38
+msgid "License type"
+msgstr "Licenc típus"
+
+#: includes/views/html-product-options.php:23
+#: includes/views/html-variable-options.php:21
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:34
+msgid "Line item comment"
+msgstr "Tétel megjegyzés"
+
+#: includes/views/html-admin-advanced.php:14
+msgid "Line item entitlement"
+msgstr "Áfakulcs jogcíme"
+
+#: includes/class-product-options.php:35
+#: includes/views/html-product-options.php:32
+#: includes/views/html-variable-options.php:29
+msgid "Line item name"
+msgstr "Tétel elnevezés"
+
+#: includes/views/html-admin-vat-overrides.php:11
+msgid "Line item(product)"
+msgstr "Termék"
+
+#: includes/class-helpers.php:73
+msgid "Loan"
+msgstr "Áruhitel"
+
+#: index.php:1587 includes/views/html-admin-payment-methods.php:22
+#: includes/views/html-admin-automations.php:91
+#: includes/views/html-admin-automations.php:172
+#: includes/views/html-metabox.php:60 includes/views/html-modal-grouped.php:72
+msgid "Mark as paid"
+msgstr "Fizetettnek jelölés"
+
+#: includes/views/html-metabox.php:58
+msgid "Mark as paid "
+msgstr "Fizetettnek jelölés"
+
+#: includes/views/html-metabox-vat.php:26
+msgid "Name"
+msgstr "Név"
+
+#: includes/views/html-admin-sidebar.php:136
+msgid "NAV tax number validation"
+msgstr "NAV adószám ellenőrzés"
+
+#: includes/views/html-admin-sidebar.php:91
+msgid "net"
+msgstr "nettó"
+
+#: includes/views/html-invoice-preview.php:82
+msgid "Net price"
+msgstr "Nettó ár"
+
+#: includes/views/html-invoice-preview.php:141
+msgid "Net total"
+msgstr "Nettó összeg"
+
+#: includes/views/html-admin-sidebar.php:49
+msgid "Next payment"
+msgstr "Előfizetés megújulása"
+
+#: includes/views/html-notice-bulk.php:47
+msgid "No invoice has been made"
+msgstr "Nem készült számla"
+
+#: includes/views/html-notice-bulk.php:65
+msgid "No reverse invoice has been made"
+msgstr "Nem készült sztornó számla"
+
+#: includes/views/html-admin-rounding.php:40
+msgid "None"
+msgstr "Nincs"
+
+#: includes/views/html-admin-accounts.php:81
+#: includes/views/html-admin-accounts.php:127
+msgid "Not conditional"
+msgstr "Nincs feltételhez kötve"
+
+#: includes/class-conditions.php:116
+msgid "Not equal"
+msgstr "Nem egyenlő"
+
+#: includes/class-product-options.php:42
+#: includes/views/html-modal-generator.php:81
+#: includes/views/html-invoice-preview.php:153
+#: includes/views/html-metabox.php:172
+msgid "Note"
+msgstr "Megjegyzés"
+
+#: includes/class-settings.php:312
+msgid "Notes"
+msgstr "Megjegyzés"
+
+#: includes/views/html-metabox-vat.php:35
+msgid "Number"
+msgstr "Házszám"
+
+#: includes/views/html-admin-advanced.php:85
+#: includes/views/html-admin-advanced.php:133
+#: includes/views/html-admin-automations.php:106
+#: includes/views/html-admin-automations.php:187
+#: includes/views/html-admin-notes.php:39
+#: includes/views/html-admin-notes.php:76
+#: includes/views/html-admin-vat-overrides.php:78
+#: includes/views/html-admin-vat-overrides.php:139
+msgid "of the following match"
+msgstr "feltétel teljesül"
+
+#: index.php:1362
+msgid "Offer successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1362
+msgid "Offer successfully generated."
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:83
+#: includes/views/html-admin-advanced.php:131
+#: includes/views/html-admin-automations.php:104
+#: includes/views/html-admin-automations.php:185
+#: includes/views/html-admin-notes.php:37
+#: includes/views/html-admin-notes.php:74
+#: includes/views/html-admin-vat-overrides.php:76
+#: includes/views/html-admin-vat-overrides.php:137
+msgid "One"
+msgstr "Egyik"
+
+#: includes/class-helpers.php:83
+msgid "Online credit card"
+msgstr "Online bankkártya"
+
+#: includes/views/html-metabox.php:123
+msgid "Options"
+msgstr "Opciók"
+
+#: includes/class-conditions.php:67
+msgid "Order currency"
+msgstr "Pénznem"
+
+#: includes/views/html-notice-error.php:12
+msgid "Order details"
+msgstr "Rendelés adatai"
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:48
+msgid "Order has a booking"
+msgstr "Rendelésben van foglalás"
+
+#: includes/class-settings.php:470
+msgid "Order status after syncing"
+msgstr "Rendelés státusz szinkronizálás után"
+
+#: includes/class-ipn.php:105
+msgid "Order status changed with Billingo bank sync."
+msgstr "Rendelés státusz módosítva a Billingo bankszinkron alapján."
+
+#: includes/class-conditions.php:29 includes/views/html-admin-accounts.php:31
+msgid "Order type"
+msgstr "Rendelés típusa"
+
+#: includes/class-settings.php:702
+msgid "Other settings"
+msgstr "Egyéb beállítások"
+
+#: includes/class-conditions.php:59
+msgid "Outside of the EU"
+msgstr "EU-n kívül"
+
+#: includes/class-settings.php:390
+msgid ""
+"Overwrite the bank account number, the invoice block and the language based "
+"on conditional logic."
+msgstr ""
+"A bankszámlaszám, számlatömb és nyelv felülírása egyedi logika alapján."
+
+#: includes/views/html-metabox.php:57 includes/views/html-metabox.php:63
+msgid "Paid"
+msgstr "Fizetve"
+
+#: index.php:1584
+#, php-format
+msgid "Paid on: %s"
+msgstr "Fizetve: %s"
+
+#: includes/class-settings.php:281 includes/class-settings.php:292
+#: includes/views/html-modal-generator.php:74
+#: includes/views/html-metabox.php:164
+msgid "Paper"
+msgstr "Papír"
+
+#: includes/class-health-check.php:209
+msgid "Path"
+msgstr "Útvonal"
+
+#: includes/class-helpers.php:87
+msgid "Paylike"
+msgstr "Paylike"
+
+#: includes/views/html-modal-grouped.php:67
+msgid "Payment date"
+msgstr "Kifizetés dátuma"
+
+#: includes/views/html-modal-generator.php:87
+#: includes/views/html-admin-automations.php:86
+#: includes/views/html-admin-automations.php:167
+#: includes/views/html-metabox.php:178
+msgid "Payment deadline"
+msgstr "Fizetési határidő"
+
+#: includes/class-settings.php:297
+#: includes/views/html-admin-payment-methods.php:21
+msgid "Payment deadline(days)"
+msgstr "Fizetési határidő(nap)"
+
+#: includes/class-conditions.php:21
+#: includes/views/html-admin-payment-methods.php:19
+#: includes/views/html-admin-accounts.php:15
+#: includes/views/html-invoice-preview.php:69
+msgid "Payment method"
+msgstr "Fizetési mód"
+
+#: includes/class-health-check.php:219 includes/class-settings.php:450
+msgid "Payment methods"
+msgstr "Fizetési módok"
+
+#: includes/class-helpers.php:88
+msgid "Payoneer"
+msgstr "Payoneer"
+
+#: includes/class-helpers.php:84
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/class-helpers.php:85
+msgid "PayPal post-paid"
+msgstr "PayPal Utólag fizetve"
+
+#: includes/class-helpers.php:86
+msgid "PayU"
+msgstr "PayU"
+
+#: index.php:656 index.php:771 index.php:814 index.php:843 index.php:875
+#: includes/class-settings.php:104 includes/class-settings.php:363
+#: includes/views/html-product-options.php:14
+#: includes/views/html-variable-options.php:13
+msgid "pcs"
+msgstr "db"
+
+#: includes/class-helpers.php:89
+msgid "Pick Pack Pont"
+msgstr "Pick Pack Pont"
+
+#: includes/class-vat-number.php:73
+msgctxt "placeholder"
+msgid "12345678-1-23"
+msgstr "12345678-1-23"
+
+#: includes/views/html-notice-v3.php:15
+msgid ""
+"Please <strong> verify that your invoices are properly created </strong> for "
+"new orders once you've made the necessary changes!"
+msgstr ""
+"Kérlek, hogy a szükséges beállítások elvégzése után <strong>ellenőrizd le, "
+"hogy megfelelően elkészülnek e a számlák</strong> az új rendeléseknél!"
+
+#: includes/class-helpers.php:90
+msgid "Post office cheque"
+msgstr "Postai csekk"
+
+#: includes/class-helpers.php:91
+msgid "Postal voucher"
+msgstr "Postautalvány"
+
+#: includes/views/html-metabox-vat.php:31
+msgid "Postcode"
+msgstr "Irányítószám"
+
+#: includes/views/html-admin-sidebar.php:86
+msgid "Premium support and a lot more"
+msgstr "Prémium support és még sok más"
+
+#: includes/views/html-notice-bulk.php:19
+msgid "Print"
+msgstr "Nyomtatás"
+
+#: includes/class-bulk-actions.php:27
+msgid "Print Billingo invoices"
+msgstr "Billingo számlák nyomtatása"
+
+#: includes/class-health-check.php:200 includes/views/html-admin-sidebar.php:66
+msgid "PRO version"
+msgstr "PRO verzió"
+
+#: index.php:2050
+msgid "Pro version"
+msgstr "Pro verzió"
+
+#: includes/class-conditions.php:36 includes/views/html-admin-accounts.php:38
+msgid "Product category"
+msgstr "Termék kategória"
+
+#: index.php:1935
+msgid "Proform invoice deleted successfully."
+msgstr "Díjbekérő sikeresen törölve. "
+
+#: index.php:1936
+#, php-format
+msgid ""
+"Proform invoice deleted successfully. This was the proforma invoice number: "
+"%s"
+msgstr "Díjbekérő sikeresen törölve. Ez volt a törölt díjbekérő száma: %s"
+
+#: index.php:1897
+msgid "Proform not found."
+msgstr "Díjbekérő nem található."
+
+#: includes/class-conditions.php:47 includes/class-helpers.php:28
+#: includes/emails/email-billingo-section.php:16
+#: includes/views/html-admin-payment-methods.php:23
+#: includes/views/html-modal-generator.php:39
+#: includes/views/html-metabox.php:196
+#: includes/emails/plain/email-billingo-section.php:14
+msgid "Proforma invoice"
+msgstr "Díjbekérő"
+
+#: index.php:1034
+msgid ""
+"Proforma invoice successfully generated and sent to the customer via e-mail."
+msgstr "Díjbekérő sikeresen létrehozva és elküldve a vásárlónak e-mailben."
+
+#: index.php:1034
+msgid "Proforma invoice successfully generated."
+msgstr "Díjbekérő sikeresen létrehozva."
+
+#: includes/class-settings.php:629
+msgid "Proforma pairing"
+msgstr "Díjbekérő számla csatolása"
+
+#: includes/views/html-admin-sidebar.php:104
+msgid ""
+"Próbáld ki az ingyenes csomagpontos bővítményt, ami támogatja az összes "
+"népszerű futárszolgálat átvételi helyeit. A PRO verzióval címkét is "
+"generálhatsz, házhozszállításra is, automata csomagkövetéssel."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:89
+msgid "Purchase PRO version"
+msgstr "PRO verzió vásárlása"
+
+#: includes/views/html-invoice-preview.php:80
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#: includes/class-settings.php:361
+msgid "Quantity unit"
+msgstr "Mennyiségi egység"
+
+#: includes/views/html-admin-sidebar.php:154
+msgid "Rating"
+msgstr "Értékelés"
+
+#: includes/views/html-metabox.php:86
+msgid "Reason for cancelling the invoice(optional)"
+msgstr "Sztornózás oka(opcionális)"
+
+#: includes/class-settings.php:680 includes/class-helpers.php:33
+msgid "Receipt"
+msgstr "Nyugta"
+
+#: index.php:1287
+msgid "Receipt generation failed for an unknown reason."
+msgstr "Valamiért nem sikerült létrehozni a számlát."
+
+#: index.php:1273
+msgid "Receipt generation failed."
+msgstr "Sikertelen nyugtakészítés."
+
+#: index.php:1341
+msgid "Receipt successfully generated and sent to the customer via e-mail."
+msgstr "Nyugta sikeresen létrehozva és elküldve a vásárlónak e-mailben"
+
+#: index.php:1341
+msgid "Receipt successfully generated."
+msgstr "Nyugta sikeresen létrehozva."
+
+#: includes/class-background-generator.php:87
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: index.php:873 includes/views/html-admin-vat-overrides.php:15
+msgid "Refund"
+msgstr "Visszatérítés"
+
+#: includes/views/html-admin-sidebar.php:57
+msgid "Reload license"
+msgstr "Licenc újratöltése"
+
+#: includes/views/html-metabox.php:80
+msgid "Resend"
+msgstr "Újraküldés"
+
+#: includes/views/html-metabox.php:80
+msgid "Resent"
+msgstr "Újraküldve"
+
+#: includes/class-helpers.php:30 includes/emails/email-billingo-section.php:21
+#: includes/views/html-modal-generator.php:47
+#: includes/views/html-notice-bulk.php:63 includes/views/html-metabox.php:91
+#: includes/emails/plain/email-billingo-section.php:18
+msgid "Reverse invoice"
+msgstr "Sztornó számla"
+
+#: includes/views/html-metabox.php:91
+msgctxt "Reverse invoice"
+msgid "Generate reverse invoice"
+msgstr "Sztornó számla létrehozása"
+
+#: index.php:1864
+msgid "Reverse invoice created successfully."
+msgstr "Sztornó számla létrehozva."
+
+#: index.php:1865
+#, php-format
+msgid "Reverse invoice created successfully. Invoice number: %s"
+msgstr "Billingo sztornó számla sikeresen létrehozva. Számla sorszáma: %s"
+
+#: includes/class-settings.php:643
+msgid "Reverse invoice pairing"
+msgstr "Sztornó számla csatolása"
+
+#: includes/class-helpers.php:20
+msgid "Romanian"
+msgstr "Román"
+
+#: includes/views/html-admin-rounding.php:41
+msgid "Round to 1"
+msgstr "1-re"
+
+#: includes/views/html-admin-rounding.php:43
+msgid "Round to 10"
+msgstr "10-re"
+
+#: includes/views/html-admin-rounding.php:42
+msgid "Round to 5"
+msgstr "5-re"
+
+#: includes/class-health-check.php:226 includes/class-settings.php:378
+#: includes/views/html-admin-rounding.php:20
+msgid "Rounding"
+msgstr "Kerekítés"
+
+#: includes/views/html-admin-rounding.php:14
+msgid "Rounding:"
+msgstr "Kerekítés:"
+
+#: includes/views/html-admin-automations.php:101
+#: includes/views/html-admin-automations.php:182
+msgid "Run this automation, if"
+msgstr "Automatizálás futtatása, ha az"
+
+#: includes/views/html-modal-generator.php:27
+msgid "Selected orders:"
+msgstr "Kiválasztott rendelések:"
+
+#: includes/views/html-invoice-preview.php:33
+msgid "Seller"
+msgstr "Eladó"
+
+#: includes/views/html-invoice-preview.php:34
+msgid "Seller Name"
+msgstr "Eladó neve"
+
+#: includes/views/html-admin-vat-overrides.php:35
+#: includes/views/html-admin-vat-overrides.php:96
+msgid "Set"
+msgstr "A"
+
+#: includes/views/html-admin-sidebar.php:14
+msgid "Setting up VAT/TAX rates in WooCommerce shops."
+msgstr "Áfakulcsok beállítása WooCommerce áruházakban"
+
+#: index.php:2034 includes/class-health-check.php:66
+#: includes/class-health-check.php:77 includes/class-health-check.php:111
+msgid "Settings"
+msgstr "Beállítások"
+
+#: includes/class-settings.php:419
+msgid ""
+"Settings related to automatic invoicing. If the mark as completed option is "
+"checked for a specific payment method, the invoice will be marked as paid in "
+"Billingo if you close the order. If you turn on the proforma invoice option, "
+"a proforma invoice will be created for the order. The payment deadline can "
+"be set individually(the global option is above)"
+msgstr ""
+"Számlakészítés automatizálásával kapcsolatos beállítások. Ha az adott "
+"fizetési módnál a teljesítettnek jelölés be van pipálva, akkor a rendelés "
+"teljesítettnek jelölésekor automatikusan kifizetettnek jelöli meg a számlát. "
+"Ha a díjbekérő be van pipálva, akkor a rendelés létrehozásakor díjbekérőt is "
+"készít. A határidő minden fizetési módhoz egyedileg beállítható(az "
+"alapértelmezett érték a fenti beállításokban van)"
+
+#: includes/class-settings.php:483
+msgid "Settings related to discounts and coupons on the invoice"
+msgstr ""
+"A kuponos rendelések számlán történő megjelenítésével kapcsolatos "
+"beállítások."
+
+#: includes/class-settings.php:589
+msgid "Settings related to sending the invoice to the customer."
+msgstr ""
+"Beállítások a számlák vásárlónak történő kiküldésével és letöltésével "
+"kapcsolatban."
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:31
+msgid "Settings related to WooCommerce Bookings."
+msgstr "A WooCommerce Bookings-al kapcsolatos extra beállítások."
+
+#: includes/views/html-admin-vat-overrides.php:12
+msgid "Shipping"
+msgstr "Szállítás"
+
+#: includes/class-conditions.php:25 includes/views/html-admin-accounts.php:19
+msgid "Shipping method"
+msgstr "Szállítási mód"
+
+#: includes/class-settings.php:368
+msgid "Show SKUs"
+msgstr "Cikkszám megjelenítése"
+
+#: includes/class-settings.php:369
+msgid "Show the product SKU in the invoice line item description."
+msgstr "Cikkszám megjelenítése a számla tétel megjegyzésében"
+
+#: includes/class-helpers.php:93
+msgid "Skrill"
+msgstr "Skrill"
+
+#: index.php:702
+msgid "SKU: "
+msgstr "Cikkszám:"
+
+#: includes/class-helpers.php:21
+msgid "Slovak"
+msgstr "Szlovák"
+
+#: includes/views/html-metabox-vat.php:37
+msgid "Staircase"
+msgstr "Lépcsőház"
+
+#: includes/class-background-generator.php:86
+msgid "Stop"
+msgstr "Megállítás"
+
+#: includes/views/html-metabox-vat.php:33
+msgid "Street"
+msgstr "Közterület neve"
+
+#: includes/views/html-metabox-vat.php:34
+msgid "Street type"
+msgstr "Közterület jellege"
+
+#: includes/views/html-admin-sidebar.php:42
+msgid "Subscription"
+msgstr "Előfizetés"
+
+#: includes/views/html-admin-sidebar.php:164
+msgid "Support"
+msgstr "Segítség"
+
+#: includes/class-settings.php:706
+msgid "Switch first name / last name"
+msgstr "Vezetéknév / keresztnév csere"
+
+#: includes/class-settings.php:457
+msgid "Sync bank transactions"
+msgstr "Bankszinkron"
+
+#: includes/class-settings.php:462
+msgid "Sync interval(minutes)"
+msgstr "Szinkron intervallum(perc)"
+
+#: includes/class-helpers.php:92
+msgid "SZÉP card"
+msgstr "SZÉP kártya"
+
+#: includes/views/html-admin-sidebar.php:11
+msgid "TAX rate setup"
+msgstr "Áfakulcs konfigurálás"
+
+#: includes/class-settings.php:564
+msgid "Technical user password"
+msgstr "Technikai felhasználó jelszava"
+
+#: includes/class-settings.php:559
+msgid "Technical username"
+msgstr "Technikai felhasználónév"
+
+#: includes/views/html-notice-welcome.php:11
+msgid ""
+"Thank you for using this extension. To get started, go to the settings page "
+"and enter your invoicing details. If you are not aware of it, there's a PRO "
+"version of this extension, which offers a lot more features compared to the "
+"free version, for example, automatic invoice generation, bulk actions, and a "
+"lot more."
+msgstr ""
+"Köszönöm, hogy telepítetted a bővítményt. Ha esetleg nem tudnád, van egy PRO "
+"verziója is, amivel sokkal több funkciót érhetsz el, például automata "
+"számlakészítés, 1 éves support és még sok más. A bővítmény használatához a "
+"beállításokban add meg a Billingo API V3 menüpontjában található kulcsot."
+
+#: includes/class-health-check.php:107
+msgid ""
+"The <strong>Woo Billingo Plus</strong> extension's debug mode is turned on. "
+"Make sure you turned this off if you are using it in a live environment."
+msgstr ""
+"A Woo Billingo Plus bővítmény fejlesztői módja be van kapcsolva. Éles "
+"használat esetén ezt mindenképp kapcsold ki, amit megtehetsz a bővítmény "
+"beállításaiban."
+
+#: includes/views/html-modal-grouped.php:33
+msgid "The combined invoice will be displayed on the selected order."
+msgstr "A kiválasztott rendelésnél lesz látható majd a gyűjtőszámla."
+
+#: includes/views/html-metabox-vat.php:50
+msgid "The data was retrieved from the NAV database."
+msgstr "Az adatok a NAV rendszeréből lettek lekérve."
+
+#: includes/views/html-notice-migrate.php:10
+msgid ""
+"The database contains settings and invoices created by the official Billingo "
+"plugin. Want to migrate these settings and invoices to Woo Billingo Plus? "
+"After the migration, the official extension will be disabled."
+msgstr ""
+"Az adatbázisban megtalálhatók a hivatalos Billingo bővítmény is beállításai "
+"is. Szeretnéd az ott lévő beállításokat és számlákat migrálni a WooCommerce "
+"Billingo Plus bővítménybe? A migrálás után a hivatalos bővítmény ki lesz "
+"kapcsolva."
+
+#: includes/class-settings.php:547
+msgid ""
+"The default priority is 35, which will place the field just after the "
+"company name field. Change this number if you want to place it somewhere "
+"else."
+msgstr ""
+"Az alapértelmezett prioritás 35, ami a cégnév mező után rakja be az adószám "
+"mezőt. Változtasd ezt a számot, ha máshol szeretnéd megjeleníteni a mezőt."
+
+#: includes/emails/email-billingo-section.php:27
+#: includes/emails/plain/email-billingo-section.php:23
+msgid "The deposit invoice for the order can be downloaded from here:"
+msgstr "A rendeléshez készült előlegszámlát számlát innen lehet letölteni:"
+
+#: includes/class-settings.php:574
+msgid "The first 8 digits of your VAT number"
+msgstr "Az adószámod első 8 számjegye"
+
+#: includes/class-emails.php:158
+#, php-format
+msgid "The following document was successfully created: %s"
+msgstr "Sikeresen elkészült a következő dokumentum: %s"
+
+#: includes/views/html-admin-sidebar.php:27
+msgid "The following license key is expired."
+msgstr "Az alábbi licenc kulcs lejárt."
+
+#: includes/emails/invoice-error.php:10 includes/views/html-notice-error.php:10
+#, php-format
+msgid ""
+"The invoice for order %s could not be created automatically for some reason. "
+"You will see the exact error in the order notes."
+msgstr ""
+"A #%s sorszámú rendeléshez tartozó számlát nem sikerült valamiért létrehozni "
+"automatikusan. A rendelés jegyzetekben látod a pontos hibát."
+
+#: includes/emails/email-billingo-section.php:12
+#: includes/emails/plain/email-billingo-section.php:11
+msgid "The invoice for the order can be downloaded from here:"
+msgstr "A rendeléshez tartozó számlát innen lehet letölteni:"
+
+#: index.php:1694
+msgid "The invoice has already been marked as paid."
+msgstr "A számla már fizetettnek lett jelölve."
+
+#: includes/views/html-metabox.php:101
+msgid ""
+"The invoice will be created automatically if the status of the order changes "
+"to:"
+msgstr ""
+"A számla automatikusan elkészül, ha a rendelés állapota megváltozik erre:"
+
+#: includes/class-settings.php:438
+msgid ""
+"The invoice will be generated automatically if the order is in this status."
+msgstr ""
+"Ha a rendelés ebbe a státuszba kerül, akkor fogja automatán megcsináni a "
+"számlát."
+
+#: includes/views/html-notice-v3.php:13
+msgid ""
+"The latest version of Woo Billingo Plus uses the Billingo API V3, for which "
+"you need to generate a <strong> new API key </strong> and enter it in the "
+"settings. You will also need to select the <strong> bank account number "
+"</strong> used for billing."
+msgstr ""
+"A Woo Billingo Plus legújabb verziója már a V3-as Billingo API-t használja, "
+"amihez egy <strong>új API kulcsot</strong> kell generálnod és megadni a "
+"beállításokban. Továbba a számlázáshoz használt <strong>"
+"bankszámlaszámot</strong> is ki kell választanod."
+
+#: includes/views/html-metabox.php:51
+msgid "The PDF is being downloaded"
+msgstr "A PDF letöltése folyamatban van"
+
+#: includes/emails/email-billingo-section.php:22
+#: includes/emails/plain/email-billingo-section.php:19
+msgid ""
+"The previous invoice has been canceled. The reverse invoice for the order "
+"can be downloaded from here:"
+msgstr ""
+"A korábban készült számlát sztornóztuk. A sztornó számlát innen lehet "
+"letölteni:"
+
+#: includes/views/html-admin-sidebar.php:23
+msgid "The PRO version is active"
+msgstr "PRO verzió aktív"
+
+#: includes/views/html-admin-sidebar.php:26
+msgid "The PRO version is expired"
+msgstr "PRO verzió lejárt"
+
+#: includes/emails/email-billingo-section.php:17
+#: includes/emails/plain/email-billingo-section.php:15
+msgid "The proforma invoice for the order can be downloaded from here:"
+msgstr "A rendeléshez készült díjbekérő számlát innen lehet letölteni:"
+
+#: includes/views/html-modal-grouped.php:35
+msgid ""
+"The status of the orders above will change to this after the invoice is "
+"created:"
+msgstr ""
+"A fent említett rendelések állapota a számla elkészítése után megváltozik "
+"erre:"
+
+#: includes/views/html-admin-sidebar.php:137
+#, php-format
+msgid ""
+"The tax number validation is currently enabled and you entered your "
+"credentials to make it work. Here you can check that everything is working "
+"well by validating your own tax number(%s):"
+msgstr ""
+"Az adószám ellenőrzés funkciót bekapcsoltad és kitöltöttél minden adatot. "
+"Itt ellenőrizheted, hogy minden jól működik e. A saját adószámodat(%s) "
+"ellenőrizte:"
+
+#: includes/class-vat-number.php:136
+msgid "The VAT number format is not valid."
+msgstr "Az adószám formátuma nem megfelelő."
+
+#: includes/class-vat-number.php:131
+msgid "The VAT number is not valid."
+msgstr "Az adószám nem megfelelő."
+
+#: includes/class-settings.php:321
+msgid ""
+"The VAT rate that is visible on the invoice. By default, it will use the "
+"values set in WooCommerce / Tax menu, if the values match the following tax "
+"types: AM, EU, FAD, ÁTHK, AAM, AKK, TAM, EUK, MAA. If there's no match, it "
+"will calculate the percentage based on the net and gross prices."
+msgstr ""
+"Az áfakulcs, ami a számlán szerepelni fog. Alapértelmezetten a WooCommerce "
+"Adó menüpontban megadott adózási osztályokhoz tartozó \"Adó Neve\" mező "
+"értékét használja adókulcsnak, akkor, ha ezek valamelyike van megadva: AM, "
+"EU, FAD, ÁTHK, AAM, AKK, TAM, EUK, MAA. Ha nem ezek közül van megadva, akkor "
+"a százalékos értéket fogja kiszámolni a nettó/bruttó tétel árakból."
+
+#: includes/class-health-check.php:53
+msgid ""
+"The website and hosting meet all the requirements for a successful invoice "
+"generation with the Woo Billingo Plus extension."
+msgstr ""
+"A weboldal és a tárhely minden követelményenek megfelel egy sikeres "
+"számlakészítéshez a Woo Billingo Plus bővítménnyel."
+
+#: includes/class-health-check.php:142
+msgid ""
+"The Woo Billingo Plus extension was able to communicate with Billingo with "
+"the API key. Looks like everything is working correctly."
+msgstr ""
+"A Woo Billingo Plus bővítménynek sikerült kapcsolatot létesítenie a megadott "
+"api kulcsokkal. Úgy néz ki, minden rendben."
+
+#: includes/class-health-check.php:186
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo because "
+"you don't have permission to use the API service. Make sure you have a valid "
+"subscription. This is the original error message:"
+msgstr ""
+"A Woo Billingo Plus bővítménynek nem sikerült kommunikálnia a Billingo "
+"szerverével. Úgy néz ki az ingyenes verziót használod, melyben nem elérhető "
+"az API használat. API csak a 30 napos próbaidőszakban vagy a Prémium "
+"verzióban elérhető. A pontos hibaüzenet ez volt:"
+
+#: includes/class-health-check.php:177
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. Make "
+"sure the exact time on your server is the same as the time on Billingo's "
+"server. This is the original error message:"
+msgstr ""
+"A Woo Billingo Plus bővítménynek nem sikerült kommunikálnia a Billingo "
+"szerverével. Ellenőrizd, hogy a szervereden lévő pontos idő azonos e a "
+"Billingo szerverén lévő idővel. A pontos hibaüzenet ez volt:"
+
+#: includes/class-health-check.php:168
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. The "
+"issue is most likely an invalid API key. This is the original error message:"
+msgstr ""
+"A Woo Billingo Plus bővítménynek nem sikerült kommunikálnia a Billingo "
+"szerverével. Ellenőrizd, hogy az API kulcs egyezik e a Billingo API V3 "
+"menüben mutatott kulcsokkal. A pontos hibaüzenet ez volt:"
+
+#: includes/class-health-check.php:160
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. This is "
+"the original error message:"
+msgstr ""
+"A Woo Billingo Plus bővítménynek nem sikerült kommunikálnia a Billingo "
+"szerverével. A pontos hibaüzenet ez volt:"
+
+#: index.php:1592
+msgid "There's no invoice for this order yet"
+msgstr "Még nem készült számla"
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:37
+msgid ""
+"This description will appear below the line item, if it was a booking. You "
+"can display the booking details and more with the following shortcodes: "
+"{booking_start_date}, {booking_end_date}, {booking_id}, "
+"{booking_person_count}, {booking_person_counts}."
+msgstr ""
+"A számlán megjelenő tétel alatti leírásban feltüntetheted a foglalással "
+"kapcsolatos információkat a következő kódokkal: {booking_start_date}, "
+"{booking_end_date}, {booking_id}, {booking_person_count}, "
+"{booking_person_counts}"
+
+#: includes/class-settings.php:902
+msgid ""
+"This feature requires the ZipArchive function and by the looks of it, this "
+"is not enabled on your website. You can ask your hosting provider for help."
+msgstr ""
+"Ehhez a funkcióhoz kell a ZipArchive funkció, ami nincs bekapcsolva a "
+"weboldaladon. Kérd meg a tárhelyszolgáltatód, hogy engedélyezzék a "
+"tárhelyeden ezt a funkciót."
+
+#: includes/views/html-modal-grouped.php:61
+msgid "This invoice was paid by the customer"
+msgstr "Ezt a számlát kifizette a vevő"
+
+#: includes/views/html-invoice-preview.php:160
+msgid ""
+"This is just a preview of the invoice and not all parameters will match the "
+"real invoice, like the colors, logo, language, and seller details."
+msgstr ""
+"Ez csak egy előnézet és nem minden eleme egyezik meg teljesen a rendes "
+"számlával, például a használt sablon, a színek, a nyelv és az eladó adatai "
+"mások lehetnek az éles számlán."
+
+#: includes/class-settings.php:496
+msgid ""
+"This is the line item name if a coupon is applied to the order. The default "
+"value is \"Discount\""
+msgstr ""
+"Rendeléshez használt kupont külön tételként tünteti fel a számlán, ennek a "
+"nevét adhatod itt meg. Alapértelmezett: Kedvezmény"
+
+#: includes/class-product-options.php:51
+#: includes/views/html-product-options.php:17
+#: includes/views/html-variable-options.php:16
+msgid ""
+"This is the unit type for the line item on the invoice. The default value is "
+"set in the plugin settings."
+msgstr ""
+"A Billingo által generált számlán a tételnél feltüntetett mennyiségi egység. "
+"Az alapértelmezett értéket a bővítmény beállításokban tudod beállítani."
+
+#: includes/class-product-options.php:44
+#: includes/views/html-product-options.php:26
+#: includes/views/html-variable-options.php:24
+msgid "This note will be visible on the invoice line item."
+msgstr "A Billingo által generált számlán a tételnél feltüntetett megjegyzés."
+
+#: includes/class-settings.php:617
+msgid ""
+"This option attaches the invoices to the WooCommerce e-mails. You should "
+"disable the invoice notification option in this case. You can select which "
+"document type is attached to the WooCommerce e-mails."
+msgstr ""
+"A számlák a WooCommerce által kiküldött e-mailekhez lesznek csatolva PDF "
+"formátumban. Érdemes ilyenkor a számlaértesítőt kikapcsolni. Kiválaszthatod, "
+"hogy melyik e-mailhez csatolja a számlát. Egyszerre többet is kiválaszthatsz."
+
+#: includes/class-settings.php:610
+msgid ""
+"This option places the invoice download links into the WooCommerce e-mails. "
+"You should disable the invoice notification option in this case. You can "
+"select which document type is attached to the WooCommerce e-mails."
+msgstr ""
+"A számlák a WooCommerce által kiküldött e-mailekbe lesznek elhelyezve, link "
+"formájában. Érdemes ilyenkor a számlaértesítőt kikapcsolni. Kiválaszthatod, "
+"hogy melyik e-mailhez csatolja a számlát. Egyszerre többet is kiválaszthatsz."
+
+#: includes/class-settings.php:364
+msgid ""
+"This will be the default quantity unit on the invoice. You can change this "
+"for each product one-by-one on the Advanced tab too."
+msgstr ""
+"Ez lesz az alapértelmezett mennyiségi egység a számlán a tételeknél, például "
+"\"db\". A termék szerkesztésekor a Haladó fülön megadható egyedi mennyiségi "
+"egység külön-külön minden termékhez."
+
+#: includes/class-settings.php:309
+msgid ""
+"This will be used as the completion date on the invoice by default. You can "
+"overwrite this when you manually create an invoice, or with a custom "
+"automation."
+msgstr ""
+"Ez lesz az alapértelmezett teljesítési idő, amikor egy új számlát létrehozol."
+" Felülírhatod manuális számlakészítés során, vagy amikor egyedi "
+"automatizálást állítasz be. "
+
+#: includes/class-settings.php:729
+msgid ""
+"This will display the download icons in the Tools column on the orders "
+"management table."
+msgstr ""
+"Ha be van kapcsolva, akkor a rendeléskezelőben a Műveletek oszlopban "
+"látszódnak a számla letöltés linkek."
+
+#: index.php:478
+msgid ""
+"Tip: check if you have a subscription for API & Bulk Invoicing on Billingo."
+msgstr ""
+"Tipp: nézd meg, hogy van e előfizetésed a \"API és Tömeges számlagenerálás\" "
+"szolgáltatásra. A Billingo-ra belépve az Előfizetések és Marketplace menüben "
+"alul a Kiegészítők között találod. "
+
+#: includes/views/html-metabox.php:4
+msgid "To create an invoice, you must enter the API key in the settings"
+msgstr "A számlakészítéshez meg kell adnod az API kulcsot a beállításokban"
+
+#: includes/class-health-check.php:73
+msgid ""
+"To use <strong>Woo Billingo Plus</strong>, you need to select a document "
+"block in the settings."
+msgstr ""
+"A <strong>Woo Billingo Plus</strong> bővítmény használatához ki kell "
+"választanod egy számaltömböt a beállításokban."
+
+#: includes/views/html-invoice-preview.php:145
+msgid "Total due"
+msgstr "Fizetendő bruttó végösszeg"
+
+#: includes/views/html-invoice-preview.php:136
+msgid "Total due:"
+msgstr "Fizetendő bruttó végösszeg:"
+
+#: includes/class-helpers.php:94
+msgid "Transferwise"
+msgstr "Transferwise"
+
+#: includes/views/html-metabox.php:25
+msgid "Turn back on"
+msgstr "Visszakapcsolás"
+
+#: includes/views/html-product-options.php:41
+#: includes/views/html-variable-options.php:37
+msgid "Turn off auto invoicing"
+msgstr "Automata számlakészítés kikapcsolása"
+
+#: includes/views/html-modal-generator.php:71
+#: includes/views/html-metabox.php:161
+msgid "Type"
+msgstr "Számla típusa"
+
+#: includes/class-pro.php:62 includes/class-pro.php:76
+msgid ""
+"Unable to activate the PRO version. Please make sure that the entered data "
+"is correct."
+msgstr "Nem sikerült az aktiválás, kérlek ellenőrizd az adatok helyességét."
+
+#: index.php:487
+msgid "Unable to create the customer."
+msgstr "Nem sikerült létrehozni az ügyfelet."
+
+#: includes/class-pro.php:107
+msgid ""
+"Unable to deactivate the PRO version. Please make sure that the entered data "
+"is correct."
+msgstr ""
+"Nem sikerült aktiválni a PRO verziót. Nézd meg, hogy pontosan írtad e be "
+"licenc kulcsot. "
+
+#: includes/views/html-admin-automations.php:95
+#: includes/views/html-admin-automations.php:176
+msgid "Unique ID"
+msgstr "Egyedi ID"
+
+#: includes/views/html-invoice-preview.php:81
+msgid "Unit price"
+msgstr "Egységár"
+
+#: includes/class-product-options.php:49
+#: includes/views/html-product-options.php:13
+#: includes/views/html-variable-options.php:12
+msgid "Unit type"
+msgstr "Mennyiségi egység"
+
+#: includes/views/html-admin-sidebar.php:40
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+#: includes/compatibility/class-compatibility.php:22
+msgid "Unserializing instances of this class is forbidden."
+msgstr "Unserializing instances of this class is forbidden."
+
+#: includes/views/html-notice-migrate.php:9
+msgid "Update Woo Billingo Plus"
+msgstr "Woo Billingo Plus adatok frissítése"
+
+#: includes/views/html-notice-welcome.php:13
+msgid "Upgrade to PRO"
+msgstr "Frissítés a PRO verzióra"
+
+#: includes/class-helpers.php:95
+msgid "Upwork"
+msgstr "Upwork"
+
+#: includes/views/html-admin-accounts.php:27
+msgid "US dollars"
+msgstr "USA dollár"
+
+#: includes/class-conditions.php:86
+msgid "VAT ID"
+msgstr "Áfakulcs"
+
+#: includes/views/html-invoice-preview.php:40
+msgid "VAT Number"
+msgstr "Adószám"
+
+#: includes/class-vat-number.php:72 includes/class-vat-number.php:97
+#: includes/class-vat-number.php:104 includes/class-vat-number.php:159
+#: includes/class-settings.php:524 includes/views/html-metabox-vat.php:13
+#: includes/views/html-metabox-vat.php:19
+msgid "VAT number"
+msgstr "Adószám"
+
+#: includes/class-settings.php:536
+msgid "VAT number field always visible"
+msgstr "Adószám mező mindig látszódjon"
+
+#: includes/class-settings.php:529
+msgid "VAT number field during checkout"
+msgstr "Adószám mező vásárláskor"
+
+#: includes/class-settings.php:543
+msgid "VAT number field position"
+msgstr "Adószám mező pozíció"
+
+#: index.php:309
+msgid "VAT Number info"
+msgstr "Adószám információ"
+
+#: includes/class-settings.php:550
+msgid "VAT number validation with NAV"
+msgstr "Adószám ellenőrzése a NAV-nál"
+
+#: includes/class-settings.php:319
+msgid "VAT rates"
+msgstr "Áfakulcs"
+
+#: includes/views/html-admin-vat-overrides.php:44
+#: includes/views/html-admin-vat-overrides.php:105
+msgid "vat type to"
+msgstr "tétel áfakulcs felülírása ezzel:"
+
+#: includes/views/html-invoice-preview.php:83
+msgid "VAT value"
+msgstr "Áfaérték"
+
+#: index.php:1571
+#, php-format
+msgid "via %s"
+msgstr "(%s)"
+
+#. Author of the plugin
+msgid "Viszt Péter"
+msgstr "Viszt Péter"
+
+#: includes/class-helpers.php:96
+msgid "Voucher"
+msgstr "Utalvány"
+
+#: index.php:1379
+msgid "Waybill successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1379
+msgid "Waybill successfully generated."
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:16
+msgid ""
+"When creating the order, it was not possible to retrieve the tax number data "
+"from NAV."
+msgstr ""
+"A rendelés létrehozásakor nem sikerült a NAV-tól lekérni az adószám adatait."
+
+#: includes/class-settings.php:652
+msgid "Where should the download links be included in the emails?"
+msgstr ""
+"'Hol legyenek a számla letöltésre vonatkozó instrukciók beágyazva az e-"
+"mailekbe?"
+
+#: includes/views/html-admin-sidebar.php:80
+msgid "Why should I use the PRO version?"
+msgstr "Miért érdemes a PRO verziót használnod?"
+
+#: includes/class-helpers.php:72
+msgid "Wire transfer"
+msgstr "Átutalás"
+
+#. Name of the plugin
+#: index.php:303 index.php:1553 includes/class-health-check.php:24
+#: includes/class-health-check.php:50 includes/class-health-check.php:95
+#: includes/class-health-check.php:137 includes/class-settings.php:13
+#: includes/views/html-status-report.php:16
+#: includes/views/html-notice-welcome.php:10
+msgid "Woo Billingo Plus"
+msgstr "Woo Billingo Plus"
+
+#: includes/class-health-check.php:87
+msgid "Woo Billingo Plus debug mode"
+msgstr "Woo Billingo Plus fejlesztői mód"
+
+#: index.php:2046
+msgid "Woo Billingo Plus Documentation"
+msgstr "Woo Billingo Plus dokumentáció"
+
+#: includes/views/html-notice-migrated.php:10
+msgid ""
+"Woo Billingo Plus has finished syncing previously created invoices. The "
+"official Billingo plugin has been disabled."
+msgstr ""
+"A Woo Billingo Plus befejezte a korábban készült számlák szinkronizációját. "
+"A hivatalos Billingo bővítmény ki lett kapcsolva."
+
+#: includes/class-health-check.php:120
+msgid "Woo Billingo Plus invoice generation"
+msgstr "Woo Billingo Plus számlakészítés"
+
+#: includes/views/html-product-options.php:9
+msgid "Woo Billingo Plus invoice settings"
+msgstr "Woo Billingo Plus számla beállítások"
+
+#: index.php:2050
+msgid "Woo Billingo Plus Pro version"
+msgstr "Woo Billingo Plus Pro verzió"
+
+#: includes/class-health-check.php:42 includes/class-health-check.php:47
+msgid "Woo Billingo Plus requirements"
+msgstr "Woo Billingo Plus követelmények"
+
+#: index.php:2034 includes/views/html-status-report.php:16
+msgid "Woo Billingo Plus Settings"
+msgstr "Woo Billingo Plus beállítások"
+
+#: includes/views/html-notice-migrating.php:9
+msgid "Woo Billingo Plus sync in progress"
+msgstr "WooCommerce Billingo Plus szinkronizálás folyamatban"
+
+#: includes/views/html-notice-migrating.php:10
+msgid ""
+"Woo Billingo Plus syncs orders in the background so you can continue to see "
+"previously created invoices in your orders. If you have a lot of orders, "
+"this may take a few minutes."
+msgstr ""
+"A bővítmény a háttérben szinkronizálja a rendeléseket, hogy a korábban "
+"elkészült számlákat továbbra is lásd a rendeléseknél. Ha nagyon sok "
+"rendelésed van, ez eltarthat néhány percig."
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:29
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:46
+msgid "WooCommerce Bookings"
+msgstr "WooCommerce Bookings"
+
+#: includes/class-settings.php:356
+msgid "WPML, Polylang & Translatepress compatibility"
+msgstr "WPML, Polylang és Translatepress kompatibilitás"
+
+#: includes/class-settings.php:569
+msgid "XML Signature"
+msgstr "XML Aláírókulcs"
+
+#: includes/views/html-notice-migrate.php:12
+msgid "Yes, migrate the data"
+msgstr "Igen, migrálja az adatokat"
+
+#: includes/views/html-admin-sidebar.php:12
+msgid ""
+"You are using the default VAT rate and taxes are disabled in WooCommerce, so "
+"the VAT rate will be 0% on the invoice."
+msgstr ""
+"Jelenleg az alapértelmezett áfakulcs beállítást használod és a WooCommerce-"
+"ben nincs engedélyezve az adók kalkulálása, így a számlán 0%-os áfakulcs fog "
+"szerepelni."
+
+#: includes/class-settings.php:272
+#| msgid ""
+#| "You can create a  document block on Billingo's website under Settings / "
+#| "Document blocks. If you don't see your document block in the dropdown, "
+#| "click on the refresh icon."
+msgid ""
+"You can create a document block on Billingo's website under Settings / "
+"Document blocks. If you don't see your document block in the dropdown, click "
+"on the refresh icon."
+msgstr ""
+"Új számlatömböt a Billingo weboldalán a Beállítások / Számlatömbök "
+"menüpontban tudsz létrehozni. Ha nem látod a legördülőben a létrehozott "
+"számlatömböt, nyomd meg a frissítés gombot."
+
+#: includes/views/html-admin-notes.php:55
+msgid "You can create multiple notes with the PRO version"
+msgstr "Több megjegyzést a PRO verzióban tudsz hozzáadni"
+
+#: includes/class-settings.php:508
+msgid ""
+"You can display the original price and the amount of the discount in the "
+"comment of the line item. Use these shortcodes: {eredeti_ar}, "
+"{kedvezmeny_merteke}, {kedvezmenyes_ar}"
+msgstr ""
+"A tétel megjegyzésében fel tudod tüntetni az eredeti árat és a kedvezmény "
+"mértékét. Használd ezeket a helyettesítőket: {eredeti_ar}, "
+"{kedvezmeny_merteke}, {kedvezmenyes_ar}"
+
+#: includes/class-settings.php:669
+msgid ""
+"You can enter multiple email addresses separated with a comma and every "
+"document created will be forwarded to these addresses. You can use this to "
+"setup automation with Zapirt or emailitin.com for example."
+msgstr ""
+"Vesszővel elválasztva megadhatsz több e-mail címet, amire az elkészült "
+"számlákat továbbítani fogja. Ezt használhatod automatizálásra például a "
+"Zapieren vagy az emailitin.com-on keresztül."
+
+#: includes/class-settings.php:555
+msgid ""
+"You can find more info about setting this up in the <a href=\"https:"
+"//visztpeter.me/gyik/adoszam-mezo-2/\">documentation</a>."
+msgstr ""
+"Bővebb információt a beállításhoz a <a href=\"https://visztpeter."
+"me/gyik/adoszam-mezo-2/\">dokumentációban</a> találsz."
+
+#: includes/class-settings.php:676
+msgid ""
+"You can find settings related to the E-Receipt. With this option, you can "
+"collect just the name and email address of the buyer. Instead of an invoice, "
+"a simple receipt will be generated that the user receives via email. Ideal "
+"for digital products, tickets. Please consult with your accountant first to "
+"make sure this is a good solution for you. If the buyer wants a regular "
+"invoice, a checkbox is added for that on the checkout form."
+msgstr ""
+"Ebben a szekcióban találod az E-Nyugta készítéshez szükséges beállításokat. "
+"Ezzel az opcióval a pénztár oldalon a vásárlónak csak a nevét és email címét "
+"kell megadnia és a vásárlásról nyugta készül, amit emailben kap meg a "
+"vásárló. Ideális jegyvásárláshoz, digitális termékekhez. Könyvelővel \n"
+" célszerű egyeztetni, megfelel e ez a megoldás. Ha a vásárló szeretne "
+"számlát kérni, akkor megadhatja a számlázási adatait is."
+
+#: includes/views/html-product-options.php:62
+#: includes/views/html-variable-options.php:56
+msgid ""
+"You can overwrite the price of the product on the invoice with this "
+"option(enter a net price)."
+msgstr "A számlán ezzel az árral fog szerepelni a termék(nettó árat adj meg)."
+
+#: includes/class-settings.php:265
+msgid ""
+"You can register your bank account number on Billingo's website under "
+"Settings / Bank accounts. If you don't see your bank account in the dropdown,"
+" click on the refresh icon."
+msgstr ""
+"Új bankszámlaszámot a Billingo weboldalán a Beállítások / Számlaszámok "
+"menüpontban tudsz létrehozni. Ha nem látod a legördülőben a létrehozott "
+"számlaszámot, nyomd meg a frissítés gombot."
+
+#: includes/views/html-admin-rounding.php:56
+msgid ""
+"You can set the rounding type for each currency you sell in. This changes "
+"the total value on the invoice."
+msgstr ""
+"Ha több pénznemben is árulsz, beállíthatod mindegyikhez, hogy milyen "
+"kerekítés legyen."
+
+#: includes/class-settings.php:243
+msgid ""
+"You can set up more accounts based on various conditions, like payment and "
+"shipping methods."
+msgstr ""
+"Itt beállíthatod, ha egyszerre több Billingo fiókot szeretnél használni "
+"fizetési és szállítási módok alapján."
+
+#: includes/class-settings.php:314
+msgid ""
+"You can use the following shortcodes in the description that appears on the "
+"invoice:<br>{customer_email} - The customer's e-mail address<br>"
+"{customer_phone} - The customer's phone number<br>{transaction_id} - "
+"Payment's transaction ID<br>{order_number} - Order number<br>"
+"{shipping_address} - Shipping address<br>{customer_notes} - Customer notes"
+msgstr ""
+"A megjegyzésben használhatod az alábbi helyettesítő kódokat:<br>"
+"{customer_email} - A vásárló e-mail címe<br>{customer_phone} - A vásárló "
+"telefonszáma<br>{transaction_id} - A fizetés tranzakciós azonosítója<br>"
+"{order_number} - Rendelés száma<br>{shipping_address} - Szállítási cím<br>"
+"{customer_notes} - Vásárlói megjegyzések"
+
+#: includes/class-bulk-actions.php:182 includes/class-ipn.php:131
+#: includes/class-ajax.php:23 includes/class-ajax.php:38
+#: includes/class-ajax.php:52 includes/class-ajax.php:63
+#: includes/class-ajax.php:74 includes/class-grouped-invoice.php:32
+#: includes/class-background-generator.php:37
+#: includes/class-background-generator.php:53
+#: includes/class-health-check.php:130
+msgid "You do not have sufficient permissions to access this action."
+msgstr "Nincs jogosultságod ehhez a művelethez. "
+
+#: includes/class-receipt.php:140 includes/class-settings.php:911
+#: includes/class-settings.php:929
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs hozzáférésed ehhez az oldalhoz."
+
+#: includes/views/html-admin-sidebar.php:24
+msgid "You have successfully activated the PRO version."
+msgstr "A PRO verziót sikeresen aktiváltad."
+
+#: includes/class-health-check.php:62
+msgid ""
+"You need to enter your API V3 Key in the settings to use the <strong>Woo "
+"Billingo Plus</strong> extension."
+msgstr ""
+"A <strong>Woo Billingo Plus</strong> bővítmény használatához add meg a "
+"bővítmény beállításaiban az API V3 kulcsodat!"
+
+#: includes/views/html-modal-generator.php:107
+msgid "You need to select at least one order."
+msgstr "Nem választottál ki egyetlen rendelést sem."
+
+#: includes/views/html-modal-grouped.php:47
+msgid "You need to select at least two orders."
+msgstr "Nem választottál ki egyetlen rendelést sem."
+
+#: includes/views/html-admin-sidebar.php:146
+msgid ""
+"Your tax number could not be validated. Make sure your NAV username and "
+"password is correct. You can find more information in the log files."
+msgstr ""
+"Nem sikerült lekérni az adószámodat. Ellenőrizd az adatok helyességét. A "
+"naplóban találsz bővebb infót arról, hogy mi lehetett a hiba."
+
+#: includes/class-settings.php:502
+msgid "{kedvezmeny_merteke} discount with the following coupon code: {kupon}"
+msgstr "{kedvezmeny_merteke} kedvezmény a következő kupon kóddal:: {kupon}"
+
+#: includes/views/html-admin-automations.php:81
+#: includes/views/html-admin-automations.php:163
+msgid "± day"
+msgstr "± nap"

@@ -1,0 +1,2666 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Billingo Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-14 18:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: includes/class-webhooks.php:34
+msgid " Woo Billingo Plus document created"
+msgstr ""
+
+#: includes/class-bulk-actions.php:231
+#, php-format
+msgid "%1$s already exists for this order"
+msgstr ""
+
+#: index.php:2269
+#, php-format
+msgid "%1$s discount with the following coupon code: %2$s"
+msgstr ""
+
+#: includes/class-bulk-actions.php:239
+#, php-format
+msgid ""
+"%1$s order(s) has been selected to create the following documents: %2$s."
+msgstr ""
+
+#: includes/class-bulk-actions.php:220
+#, php-format
+msgid ""
+"%1$s order(s) has been selected to create the following documents: %2$s. "
+"Documents are being created. Reload this page and you will see a status "
+"indicator top right, next to your username."
+msgstr ""
+
+#: index.php:2667
+#, php-format
+msgid ""
+"%1$sWoo Billingo Plus is inactive%2$s. The %3$s1$sWooCommerce plugin %4$s "
+"must be active. %5$sPlease install or activate the latest WooCommerce &raquo;"
+"%6$s"
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:24
+#, php-format
+msgid "%s invoice(s) selected for download."
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:18
+#, php-format
+msgid "%s invoice(s) selected for printing."
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:31
+#: includes/views/html-notice-bulk.php:37
+#, php-format
+msgid "%s order(s) selected to create invoices. Documents are being created."
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:55
+#, php-format
+msgid ""
+"%s order(s) selected to create reverse invoices. Documents are being created."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:92
+msgid "30 € / year"
+msgstr ""
+
+#: includes/emails/invoice-copy.php:15
+#, php-format
+msgid "<strong>Document download link:</strong> %s"
+msgstr ""
+
+#: includes/emails/invoice-copy.php:14
+#, php-format
+msgid "<strong>Document name:</strong> %s"
+msgstr ""
+
+#: includes/emails/invoice-copy.php:13
+#, php-format
+msgid "<strong>Document type:</strong> %s"
+msgstr ""
+
+#: includes/class-grouped-invoice.php:86
+#, php-format
+msgid ""
+"A combined invoice has been created for this order. This invoice also has "
+"line items from the following orders: #%1$s"
+msgstr ""
+
+#: includes/class-grouped-invoice.php:91
+#, php-format
+msgid ""
+"A combined invoice has been created for this order. You can find the invoice "
+"on the main order: #%1$s"
+msgstr ""
+
+#: includes/views/html-notice-v3.php:12
+msgid "A new Billingo API key is required"
+msgstr ""
+
+#: includes/class-settings.php:446
+msgid ""
+"A reverse invoice will be generated automatically if the order is in this "
+"status."
+msgstr ""
+
+#: includes/class-health-check.php:98
+msgid "A WooCommerce Billingo Plus debug mode is turned off."
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:51
+msgid "Account name"
+msgstr ""
+
+#: includes/class-settings.php:230
+msgid "Account settings"
+msgstr ""
+
+#: includes/views/html-metabox.php:91
+msgctxt "Action"
+msgid "Reverse invoice"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:78
+msgid "Activate"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:101
+msgid "Add a new account"
+msgstr ""
+
+#: includes/views/html-admin-notes.php:55
+msgid "Add a new note"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:94
+msgid "Add new"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:115
+msgid "Add new automation"
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:87
+msgid "Add new override"
+msgstr ""
+
+#: includes/views/html-admin-notes.php:33
+#: includes/views/html-admin-notes.php:70
+msgid "Add note to invoice, if"
+msgstr ""
+
+#: includes/views/html-admin-notes.php:46
+#: includes/views/html-admin-notes.php:83
+msgid "Add to the end of an existing note"
+msgstr ""
+
+#: includes/class-helpers.php:78
+msgid "Advance payment"
+msgstr ""
+
+#: includes/class-settings.php:389
+msgid "Advanced settings"
+msgstr ""
+
+#: includes/class-settings.php:425
+msgid "Advanced settings to setup automations."
+msgstr ""
+
+#: includes/class-settings.php:328
+msgid "Advanced settings to setup VAT rates."
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:55
+#: includes/views/html-admin-advanced.php:103
+msgctxt "advanced-options"
+msgid "Set"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:64
+#: includes/views/html-admin-advanced.php:112
+msgctxt "advanced-options"
+msgid "to"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:20
+#, php-format
+msgid "after %1$s status"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:82
+#: includes/views/html-admin-advanced.php:130
+#: includes/views/html-admin-automations.php:103
+#: includes/views/html-admin-automations.php:184
+#: includes/views/html-admin-notes.php:36
+#: includes/views/html-admin-notes.php:73
+#: includes/views/html-admin-vat-overrides.php:75
+#: includes/views/html-admin-vat-overrides.php:136
+msgid "All"
+msgstr ""
+
+#: includes/class-grouped-invoice.php:69
+#, php-format
+msgid "An invoice has been already created for the selected orders(#%1$s)."
+msgstr ""
+
+#: includes/class-settings.php:235 includes/views/html-admin-accounts.php:52
+#: includes/views/html-admin-accounts.php:71
+#: includes/views/html-admin-accounts.php:117
+msgid "API V3 key"
+msgstr ""
+
+#: includes/emails/invoice-copy.php:18 includes/emails/invoice-error.php:12
+msgid "As a reminder, here are your order details:"
+msgstr ""
+
+#: includes/class-settings.php:655
+msgid "At the beginning"
+msgstr ""
+
+#: includes/class-settings.php:656
+msgid "At the end"
+msgstr ""
+
+#: includes/class-settings.php:613
+msgid "Attach invoices to e-mail"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:85
+msgid "Attach PDF invoices to WooCommerce e-mails"
+msgstr ""
+
+#: includes/class-settings.php:579
+msgid "Autofill billing fields based on VAT number"
+msgstr ""
+
+#: includes/class-settings.php:436
+msgid "Automatic billing"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:82
+msgid "Automatic invoicing"
+msgstr ""
+
+#: includes/class-settings.php:444
+msgid "Automatic reverse invoice"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:15
+msgctxt "Automation trigger"
+msgid "On successful payment"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:14
+msgctxt "Automation trigger"
+msgid "When order created"
+msgstr ""
+
+#: includes/class-settings.php:417
+msgid "Automatization"
+msgstr ""
+
+#: includes/class-settings.php:261 includes/views/html-admin-advanced.php:11
+msgid "Bank account"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:53
+#: includes/views/html-admin-accounts.php:74
+#: includes/views/html-admin-accounts.php:120
+msgid "Bank account ID"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:41
+msgid "Bank account number"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:42
+msgid "Bank name"
+msgstr ""
+
+#: includes/class-ipn.php:121
+msgid "Bank Sync"
+msgstr ""
+
+#: includes/class-helpers.php:75
+msgid "Barion"
+msgstr ""
+
+#: includes/class-helpers.php:76
+msgid "Barter"
+msgstr ""
+
+#: index.php:644
+#, php-format
+msgid "Based on deposit invoice: %s"
+msgstr ""
+
+#: index.php:637
+#, php-format
+msgid "Based on proform invoice: %s"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:79
+#: includes/views/html-admin-advanced.php:127
+#: includes/views/html-admin-vat-overrides.php:72
+#: includes/views/html-admin-vat-overrides.php:133
+msgid "Based on the following conditions, if"
+msgstr ""
+
+#: includes/class-helpers.php:98
+msgid "Bill of exchange"
+msgstr ""
+
+#: includes/class-conditions.php:56
+msgid "Billing address"
+msgstr ""
+
+#: includes/class-conditions.php:63
+msgid "Billing country"
+msgstr ""
+
+#: includes/class-bulk-actions.php:272
+msgid "Billingo"
+msgstr ""
+
+#: includes/class-conditions.php:52 includes/views/html-modal-generator.php:52
+#: includes/views/html-metabox.php:141
+msgid "Billingo account"
+msgstr ""
+
+#: includes/class-ipn.php:97
+msgid "Billingo credit entry successfully recorded(through bank sync)"
+msgstr ""
+
+#: index.php:1049
+#, php-format
+msgid "Billingo deposit invoice generated successfully. Invoice number: %s"
+msgstr ""
+
+#: includes/class-emails.php:167
+#, php-format
+msgid "Billingo document created - %s"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:13
+msgid "Billingo document generator"
+msgstr ""
+
+#: index.php:1061
+msgid "Billingo draft successfully generated."
+msgstr ""
+
+#: includes/views/html-admin-payment-methods.php:20
+msgid "Billingo ID"
+msgstr ""
+
+#. Description of the plugin
+msgid "Billingo integráció WooCommerce-hez rengeteg extra funkcióval"
+msgstr ""
+
+#: index.php:1073
+#, php-format
+msgid "Billingo invoice generated successfully. Invoice number: %s"
+msgstr ""
+
+#: index.php:953
+#, php-format
+msgid "Billingo invoice generation failed! Error code: %s"
+msgstr ""
+
+#: index.php:473
+#, php-format
+msgid ""
+"Billingo invoice generation failed! Unable to create customer. Error code: %s"
+msgstr ""
+
+#: includes/class-health-check.php:134
+msgid "Billingo is connected."
+msgstr ""
+
+#: includes/class-background-generator.php:84
+msgid "Billingo is generating invoices in the background"
+msgstr ""
+
+#: includes/class-health-check.php:155
+msgid "Billingo is not connected"
+msgstr ""
+
+#: index.php:1365
+#, php-format
+msgid "Billingo offer generated successfully. Offer number: %s"
+msgstr ""
+
+#: includes/class-health-check.php:92
+msgid "Billingo Plus debug mode is turned off"
+msgstr ""
+
+#: includes/class-health-check.php:104
+msgid "Billingo Plus debug mode is turned on"
+msgstr ""
+
+#: index.php:1914
+#, php-format
+msgid "Billingo proform invoice delete failed! Error code: %s"
+msgstr ""
+
+#: index.php:1037
+#, php-format
+msgid "Billingo proforma invoice generated successfully. Invoice number: %s"
+msgstr ""
+
+#: index.php:1344
+#, php-format
+msgid "Billingo receipt generated successfully. Receipt number: %s"
+msgstr ""
+
+#: index.php:1275
+#, php-format
+msgid "Billingo receipt generation failed! Error code: %s"
+msgstr ""
+
+#: index.php:1798
+#, php-format
+msgid "Billingo reverse invoice generation failed! Error code: %s"
+msgstr ""
+
+#: index.php:1382
+#, php-format
+msgid "Billingo waybill generated successfully. Waybill number: %s"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:36
+msgid "Building"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:84
+msgid "Bulk download and print"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:83
+msgid "Bulk invoice generation"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:46
+msgid "Buyer"
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:30
+msgid ""
+"By combining the items in the orders below, you can create a single invoice. "
+"Select the order that will be the basis of the combined invoice: it will use "
+"the shipping and billing address of this order when creating the invoice."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:120
+msgid "Bővebb információk"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:68
+#: includes/views/html-admin-accounts.php:114
+msgid "Can be anything"
+msgstr ""
+
+#: includes/class-helpers.php:81
+msgid "Cash"
+msgstr ""
+
+#: includes/class-helpers.php:97
+msgid "Cash on delivery"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:32
+msgid "City"
+msgstr ""
+
+#: includes/compatibility/class-compatibility.php:18
+msgid "Cloning this object is forbidden."
+msgstr ""
+
+#: includes/views/html-modal-generator.php:15
+#: includes/views/html-modal-grouped.php:15
+#: includes/views/html-modal-grouped.php:63
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/class-settings.php:745
+msgid "Combined invoice order status"
+msgstr ""
+
+#: includes/class-conditions.php:32 includes/views/html-admin-accounts.php:34
+msgid "Company"
+msgstr ""
+
+#: includes/class-settings.php:373
+msgid "Company name + name"
+msgstr ""
+
+#: includes/class-helpers.php:79
+msgid "Compensation"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:92
+#: includes/views/html-invoice-preview.php:66
+#: includes/views/html-admin-automations.php:73
+#: includes/views/html-admin-automations.php:155
+#: includes/views/html-metabox.php:183
+msgid "Completion date"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:55
+msgid "Condition"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:67
+#: includes/views/html-admin-automations.php:149
+msgid "Conditional logic"
+msgstr ""
+
+#: includes/views/html-product-options.php:59
+#: includes/views/html-variable-options.php:53
+msgid "Cost on invoice"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:30
+msgid "Country code"
+msgstr ""
+
+#: includes/class-helpers.php:80
+msgid "Coupon"
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:13
+#: includes/views/html-modal-grouped.php:42
+msgid "Create a combined invoice"
+msgstr ""
+
+#: includes/class-settings.php:689
+msgid ""
+"Create a separate receipt block on Billingo's website under Settings / "
+"Document blocks. If you don't see your document block in the dropdown, click "
+"on the refresh icon."
+msgstr ""
+
+#: includes/class-settings.php:737
+msgid "Create a ZIP file during bulk download"
+msgstr ""
+
+#: includes/views/html-metabox.php:223
+msgid "Create an invoice instead"
+msgstr ""
+
+#: includes/class-grouped-invoice.php:18
+msgid "Create Billingo combined invoice"
+msgstr ""
+
+#: includes/class-bulk-actions.php:31
+msgid "Create Billingo documents"
+msgstr ""
+
+#: includes/class-bulk-actions.php:25
+msgid "Create Billingo invoices"
+msgstr ""
+
+#: includes/class-bulk-actions.php:26
+msgid "Create Billingo reverse invoices"
+msgstr ""
+
+#: includes/class-settings.php:382
+msgid "Create drafts"
+msgstr ""
+
+#: includes/views/html-metabox.php:131
+msgid "Create invoice"
+msgstr ""
+
+#: includes/views/html-metabox.php:119
+msgid "Create receipt"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:54
+#: includes/views/html-admin-automations.php:136
+msgid "creation"
+msgstr ""
+
+#: includes/class-helpers.php:74
+msgid "Credit card"
+msgstr ""
+
+#: includes/class-helpers.php:19
+msgid "Croatian"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:103
+msgid "Csomagpontok és címkegenerálás"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:23
+#: includes/views/html-admin-rounding.php:19
+msgid "Currency"
+msgstr ""
+
+#: includes/class-settings.php:424
+msgid "Custom automations"
+msgstr ""
+
+#: includes/class-settings.php:753
+msgid "Custom order statuses"
+msgstr ""
+
+#: includes/class-settings.php:327
+msgid "Custom VAT rate overrrides"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:83
+#: includes/views/html-admin-automations.php:88
+#: includes/views/html-admin-automations.php:169
+msgid "day"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:56
+msgid "Deactivate license"
+msgstr ""
+
+#: includes/class-helpers.php:82
+msgid "Deduction"
+msgstr ""
+
+#: includes/class-settings.php:290
+msgid "Default"
+msgstr ""
+
+#: includes/class-settings.php:301
+msgid "Default completion date"
+msgstr ""
+
+#: includes/class-settings.php:717
+msgid "Delayed invoice generation"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:73
+#: includes/views/html-admin-advanced.php:121
+#: includes/views/html-admin-automations.php:69
+#: includes/views/html-admin-automations.php:151
+#: includes/views/html-admin-notes.php:40
+#: includes/views/html-admin-notes.php:77
+#: includes/views/html-admin-vat-overrides.php:53
+#: includes/views/html-admin-vat-overrides.php:114
+msgid "delete"
+msgstr ""
+
+#: includes/class-settings.php:732
+msgid "Delete settings"
+msgstr ""
+
+#: includes/class-conditions.php:48 includes/class-helpers.php:32
+#: includes/emails/email-billingo-section.php:26
+#: includes/views/html-admin-payment-methods.php:24
+#: includes/views/html-modal-generator.php:43
+#: includes/views/html-metabox.php:200
+#: includes/emails/plain/email-billingo-section.php:22
+msgid "Deposit invoice"
+msgstr ""
+
+#: includes/class-settings.php:636
+msgid "Deposit invoice pairing"
+msgstr ""
+
+#: index.php:1046
+msgid ""
+"Deposit invoice successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1046
+msgid "Deposit invoice successfully generated."
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:79
+msgid "Description"
+msgstr ""
+
+#: includes/class-settings.php:722
+msgid "Developer mode"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:162
+msgid "Development mode details:"
+msgstr ""
+
+#: includes/class-health-check.php:26
+#, php-format
+msgid ""
+"Diagnostic information related to the Woo Billingo Plus extension. If you "
+"have some questions or something is not working correctly, please forward "
+"these details too: <a href=\"%1$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Support</a>"
+msgstr ""
+
+#: includes/views/html-metabox.php:218
+msgid "Disable invoicing"
+msgstr ""
+
+#: index.php:2261 includes/class-settings.php:495
+#: includes/views/html-admin-vat-overrides.php:13
+msgid "Discount"
+msgstr ""
+
+#: includes/class-settings.php:486
+msgid "Discount as a separate line item"
+msgstr ""
+
+#: includes/class-settings.php:499
+msgid "Discount line item description"
+msgstr ""
+
+#: includes/class-settings.php:492
+msgid "Discount line item name"
+msgstr ""
+
+#: includes/class-settings.php:506
+msgid "Discounted product note"
+msgstr ""
+
+#: includes/class-settings.php:481
+msgid "Discounts"
+msgstr ""
+
+#: includes/views/html-notice-migrated.php:9
+#: includes/views/html-notice-error.php:8 includes/views/html-notice-v3.php:11
+#: includes/views/html-notice-welcome.php:9
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-settings.php:516
+msgid "Do not create an invoice for free orders"
+msgstr ""
+
+#: includes/views/html-admin-payment-methods.php:25
+msgid "DO NOT generate automatically"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:54
+#: includes/views/html-admin-accounts.php:77
+#: includes/views/html-admin-accounts.php:123
+msgid "Document block ID"
+msgstr ""
+
+#: includes/class-conditions.php:44 includes/views/html-modal-generator.php:32
+#: includes/views/html-metabox.php:189
+msgid "Document type"
+msgstr ""
+
+#: includes/emails/invoice-copy.php:10
+#, php-format
+msgid ""
+"Document(%2$s - %3$s) for order #%1$s created successfully created. The PDF "
+"file is attached to this email."
+msgstr ""
+
+#: index.php:2046 includes/views/html-admin-sidebar.php:167
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:39
+msgid "Door"
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:25
+msgid "Download"
+msgstr ""
+
+#: includes/class-bulk-actions.php:28
+msgid "Download Billingo invoices"
+msgstr ""
+
+#: includes/class-settings.php:598
+msgid "Download documents"
+msgstr ""
+
+#: includes/class-settings.php:727
+msgid "Download icons in the tools column"
+msgstr ""
+
+#: includes/class-helpers.php:31 includes/views/html-metabox.php:204
+msgid "Draft"
+msgstr ""
+
+#: index.php:1058
+msgid "Draft successfully generated."
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:63
+msgid "Due date"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:168
+msgid "E-mail (support@visztpeter.me)"
+msgstr ""
+
+#: includes/class-settings.php:711
+msgid "E-mail address for error notifications"
+msgstr ""
+
+#: includes/class-settings.php:651
+msgid "E-mail link position"
+msgstr ""
+
+#: includes/class-settings.php:674
+msgid "E-Receipt"
+msgstr ""
+
+#: includes/class-settings.php:280 includes/class-settings.php:291
+#: includes/views/html-modal-generator.php:75
+#: includes/views/html-metabox.php:165
+msgid "Electronic"
+msgstr ""
+
+#: includes/class-helpers.php:16
+msgid "English"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:155
+msgid ""
+"Enjoyed <strong>Woo Billingo Plus</strong>? Please leave us a ★★★★★ rating. "
+"We appreciate your support!"
+msgstr ""
+
+#: includes/views/html-product-options.php:35
+#: includes/views/html-variable-options.php:32
+msgid ""
+"Enter a custom name that will appear on the invoice. Default is the name of "
+"the product."
+msgstr ""
+
+#: includes/class-product-options.php:37
+msgid ""
+"Enter a custom name that will appear on the invoice. Default is the name of "
+"the shipping method."
+msgstr ""
+
+#: includes/class-settings.php:232
+msgid "Enter the API Key V3 that you generated on Billingo."
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:57
+#: includes/views/html-admin-vat-overrides.php:118
+msgid "Entitlement"
+msgstr ""
+
+#: includes/class-conditions.php:115
+msgid "Equal"
+msgstr ""
+
+#: includes/class-settings.php:338
+msgid "EU vat rate"
+msgstr ""
+
+#: includes/class-settings.php:344
+msgid "EUK vat rate"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:26
+msgid "Euro"
+msgstr ""
+
+#: index.php:1523 index.php:1529
+msgid "Failed invoice generation"
+msgstr ""
+
+#: index.php:1006 index.php:1830
+msgid "Failed to create a download link for the invoice."
+msgstr ""
+
+#: index.php:1314
+msgid "Failed to create a download link for the receipt."
+msgstr ""
+
+#: index.php:1796
+msgid "Failed to create a reverse invoice."
+msgstr ""
+
+#: index.php:1912
+msgid "Failed to delete a proform invoice."
+msgstr ""
+
+#: index.php:976 index.php:1983
+msgid "Failed to email invoice."
+msgstr ""
+
+#: index.php:1726
+#, php-format
+msgid "Failed to mark the Billingo invoice as paid! Error code: %s"
+msgstr ""
+
+#: index.php:1723
+msgid "Failed to mark the invoice as paid."
+msgstr ""
+
+#: includes/class-settings.php:891
+msgid ""
+"Failed to retrieve available bank accounts. Check the api key or see if "
+"you've already created a bank account!"
+msgstr ""
+
+#: includes/class-settings.php:894
+msgid "Failed to retrieve available invoice blocks. Check the api key!"
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:14
+msgid "Fee"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:38
+msgid "Floor"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:25
+msgid "Forint"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:169
+msgid "Forum thread on WordPress.org"
+msgstr ""
+
+#: includes/class-helpers.php:18
+msgid "French"
+msgstr ""
+
+#: includes/class-settings.php:258
+msgid "General settings related to invoices."
+msgstr ""
+
+#: includes/views/html-modal-generator.php:102
+msgid "Generate documents"
+msgstr ""
+
+#: includes/class-background-generator.php:79
+msgid "Generating invoices..."
+msgstr ""
+
+#: includes/class-helpers.php:15
+msgid "German"
+msgstr ""
+
+#: includes/views/html-notice-welcome.php:14
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/views/html-notice-v3.php:17
+msgid "Go to settings"
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:27
+msgid "Go to the order"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:84
+msgid "Gross price"
+msgstr ""
+
+#: includes/class-helpers.php:77
+msgid "Health insurance card"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:82
+msgid "Here you can override the note specified in settings"
+msgstr ""
+
+#: includes/views/html-metabox.php:173
+msgid ""
+"Here you can override the note specified in settings. Start with a + sign to "
+"append to the exising note."
+msgstr ""
+
+#: includes/class-settings.php:693
+msgid "Hidden checkout fields"
+msgstr ""
+
+#: includes/class-settings.php:511
+msgid "Hide free shipping"
+msgstr ""
+
+#: includes/views/html-product-options.php:50
+#: includes/views/html-variable-options.php:45
+msgid "Hide from invoice"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:158
+msgid "Hide this message"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://visztpeter.me"
+msgstr ""
+
+#: includes/class-helpers.php:14
+msgid "Hungarian"
+msgstr ""
+
+#: includes/views/html-notice-migrate.php:13
+msgid "I don't want to migrate"
+msgstr ""
+
+#: includes/class-settings.php:239
+msgid "I have multiple accounts"
+msgstr ""
+
+#: includes/class-receipt.php:46
+msgid "I need an invoice instead of a receipt"
+msgstr ""
+
+#: includes/class-settings.php:476
+msgid ""
+"If an invoice was marked as paid in Billingo, the order will be marked with "
+"this status."
+msgstr ""
+
+#: includes/views/html-product-options.php:44
+#: includes/views/html-variable-options.php:40
+msgid ""
+"If checked, no invoice will be automatically issued for the order if this "
+"product is included in the order."
+msgstr ""
+
+#: includes/views/html-product-options.php:53
+#: includes/views/html-variable-options.php:48
+msgid "If checked, this product will be hidden on the invoices."
+msgstr ""
+
+#: includes/class-settings.php:248
+msgid ""
+"If the condition is not matched, it will use the default API Key for "
+"automatic invoice generation. You can change the account if you are creating "
+"an invoice manually."
+msgstr ""
+
+#: includes/class-settings.php:582
+msgid ""
+"If the customer enters a VAT number, it will validate it and also prefill "
+"the address and company name fields automatically."
+msgstr ""
+
+#: includes/class-settings.php:526
+msgid ""
+"If the customer is a company, you are required to collect a VAT number. You "
+"can use these options to show an extra field on the checkout form."
+msgstr ""
+
+#: includes/class-settings.php:708
+msgid ""
+"If the order of the name is not correct on the invoice, you can use this "
+"option to switch the first/last name."
+msgstr ""
+
+#: includes/class-settings.php:345
+msgid ""
+"If there's 0% VAT on the invoice and the customer's billing and shipping "
+"location is outside of the EU, it will use the EUK vat rate."
+msgstr ""
+
+#: includes/class-settings.php:339
+msgid ""
+"If there's 0% VAT on the invoice, but the customer entered an EU VAT Number, "
+"it will use the EU vat rate instead of 0%."
+msgstr ""
+
+#: includes/class-settings.php:375
+msgid ""
+"If turned on and the buyer enters a company name, the regular first/last "
+"name will be visible after the company name on the invoice."
+msgstr ""
+
+#: includes/class-settings.php:554
+msgid ""
+"If turned on and you entered your Online Invoice credentials and the "
+"customer enters a VAT number, it will validate it using the NAV API."
+msgstr ""
+
+#: includes/class-settings.php:594
+msgid ""
+"If turned on, Billingo will email the customer about the invoice "
+"automatically."
+msgstr ""
+
+#: includes/class-settings.php:384
+msgid ""
+"If turned on, during automatic invoice generation, it will create drafts "
+"instead of real invoices. You can still create invoices manually."
+msgstr ""
+
+#: includes/class-settings.php:734
+msgid ""
+"If turned on, during plugin uninstall it will also delete all settings from "
+"the database."
+msgstr ""
+
+#: includes/class-settings.php:518
+msgid "If turned on, it won't create an invoice automatically for free orders."
+msgstr ""
+
+#: includes/class-settings.php:489
+msgid ""
+"If turned on, the discount will be a new separate negative line item instead "
+"of the reduced prices shown for each order item."
+msgstr ""
+
+#: includes/class-settings.php:503
+msgid ""
+"If turned on, the discount will be a new separate negative order item and "
+"you can change it's description here. Default value: {kedvezmeny_merteke} "
+"discount with the following coupon code: {kupon}"
+msgstr ""
+
+#: includes/class-settings.php:724
+msgid ""
+"If turned on, the generated XML file will be logged in WooCommerce / Status "
+"/ Logs. Can be used to debug issues."
+msgstr ""
+
+#: includes/class-settings.php:719
+msgid ""
+"If turned on, the invoice will be generated in the background process, so "
+"the customer can reach the thank you page faster during checkout. Keep in "
+"mind that in this case, the invoice is not ready yet when the WooCommerce e-"
+"mail is sent, so make sure you have the email notification option turned on."
+msgstr ""
+
+#: includes/class-settings.php:358
+msgid ""
+"If turned on, the language code stored by WPML, Polylang, or Translatepress "
+"will be used to create the invoice."
+msgstr ""
+
+#: includes/class-settings.php:600
+msgid ""
+"If turned on, the PDF files will be downloaded into the wp-content/wc-"
+"billingo-plus folder, so it can be attached to WooCommerce emails and you "
+"can use the bulk download and print features. If not turned on, it will "
+"store only the link that redirects to Billingo's website."
+msgstr ""
+
+#: includes/class-settings.php:662
+msgid ""
+"If turned on, the user can download the invoices once he/she is logged in on "
+"the website, under the My Orders page."
+msgstr ""
+
+#: includes/class-settings.php:540
+msgid ""
+"If turned on, the VAT number field will be visible by default even if "
+"there's no company name entered yet."
+msgstr ""
+
+#: includes/class-settings.php:458
+msgid ""
+"If turned on, this extension will check for unpaid invoices and if it was "
+"marked as paid in Billingo, it will be stored in the order data too."
+msgstr ""
+
+#: includes/class-settings.php:513
+msgid "If turned on, this will hide the free shipping invoice line item."
+msgstr ""
+
+#: includes/class-settings.php:755
+msgid ""
+"If you are using a custom order status extension and the automation you "
+"setup for that status won't trigger, try to add the slug of your custom "
+"status. You can add multiple, separated with a comma."
+msgstr ""
+
+#: includes/class-settings.php:750
+msgid ""
+"If you create a combined invoice, the related order statuses will change to "
+"this."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:13
+msgid ""
+"If you don't need to charge sales tax, you can set a fixed VAT rate in the "
+"settings, like AAM. If you need percentage-based VAT rates, or you have a "
+"more complicated situation, you need to configure the WooCommerce TAX "
+"settings properly. Here is a guide to do this:"
+msgstr ""
+
+#: includes/class-vat-number.php:143
+msgid "If you enter a company name, the VAT number field is required."
+msgstr ""
+
+#: includes/class-vat-number.php:147
+msgid "If you enter a VAT number, the company name field is required."
+msgstr ""
+
+#: includes/class-settings.php:714
+msgid ""
+"If you enter an email address, you will receive a notification if there was "
+"an error generating an invoice. Leave it empty if you don't need this."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:67
+msgid ""
+"If you have already purchased the PRO version, enter the license key and the "
+"e-mail address used to purchase:"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:59
+msgid ""
+"If you want to activate the license on another website, you must first "
+"deactivate it on this website."
+msgstr ""
+
+#: includes/class-settings.php:740
+msgid ""
+"If you want to download multiple invoices at once, this option will create a "
+"ZIP file with separate PDF files(the default option will merge all invoices "
+"into a single PDF)."
+msgstr ""
+
+#: includes/class-conditions.php:31 includes/views/html-admin-accounts.php:33
+msgid "Individual"
+msgstr ""
+
+#: includes/class-settings.php:606
+msgid "Insert invoices into e-mails"
+msgstr ""
+
+#: includes/class-conditions.php:58
+msgid "Inside the EU"
+msgstr ""
+
+#: includes/class-conditions.php:46 includes/class-helpers.php:29
+#: includes/emails/email-billingo-section.php:11
+#: includes/views/html-modal-generator.php:35
+#: includes/views/html-notice-bulk.php:45 includes/views/html-metabox.php:192
+#: includes/views/html-modal-grouped.php:26
+#: includes/emails/plain/email-billingo-section.php:10
+msgid "Invoice"
+msgstr ""
+
+#: includes/views/html-metabox.php:130
+msgctxt "Invoice"
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/class-settings.php:268 includes/class-settings.php:685
+#: includes/views/html-admin-advanced.php:13
+msgid "Invoice block"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:27
+msgctxt "Invoice complete date type"
+msgid "Document created"
+msgstr ""
+
+#: includes/class-settings.php:306
+msgctxt "Invoice complete date type"
+msgid "Document created(today)"
+msgstr ""
+
+#: includes/class-settings.php:304 includes/views/html-admin-automations.php:25
+msgctxt "Invoice complete date type"
+msgid "Order created"
+msgstr ""
+
+#: includes/class-settings.php:305 includes/views/html-admin-automations.php:26
+msgctxt "Invoice complete date type"
+msgid "Payment complete"
+msgstr ""
+
+#: includes/class-settings.php:666
+msgid "Invoice forwarding"
+msgstr ""
+
+#: includes/views/html-notice-error.php:9
+msgid "Invoice generation failed"
+msgstr ""
+
+#: index.php:965
+msgid "Invoice generation failed for an unknown reason."
+msgstr ""
+
+#: index.php:951
+msgid "Invoice generation failed."
+msgstr ""
+
+#: includes/class-ajax.php:89
+msgid "Invoice generation turned off."
+msgstr ""
+
+#: includes/class-ajax.php:85
+msgid "Invoice generation turned on."
+msgstr ""
+
+#: includes/class-background-generator.php:79
+msgid "Invoice generation was successful"
+msgstr ""
+
+#: includes/class-conditions.php:40 includes/class-settings.php:351
+msgid "Invoice language"
+msgstr ""
+
+#: index.php:1687 index.php:1770 index.php:1967
+msgid "Invoice not found."
+msgstr ""
+
+#: includes/class-settings.php:592 includes/views/html-metabox.php:79
+msgid "Invoice notification"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:26
+msgid "Invoice number"
+msgstr ""
+
+#: includes/class-settings.php:621
+msgid "Invoice pairing"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:16
+msgid "Invoice preview"
+msgstr ""
+
+#: includes/views/html-metabox.php:127
+msgctxt "Invoice preview"
+msgid "Preview"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:25
+msgctxt "Invoice preview title"
+msgid "Preview"
+msgstr ""
+
+#: includes/class-settings.php:256
+msgid "Invoice settings"
+msgstr ""
+
+#: includes/class-settings.php:587
+msgid "Invoice sharing"
+msgstr ""
+
+#: index.php:1070
+msgid "Invoice successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1070
+msgid "Invoice successfully generated."
+msgstr ""
+
+#: index.php:1734
+msgid "Invoice successfully marked as paid."
+msgstr ""
+
+#: includes/class-settings.php:275
+msgid "Invoice type"
+msgstr ""
+
+#: includes/class-settings.php:294
+msgid ""
+"Invoice type for company orders(if the customer entered a company name at "
+"the checkout form, it's a company order)."
+msgstr ""
+
+#: includes/class-settings.php:285
+msgid "Invoice type on company orders"
+msgstr ""
+
+#: includes/class-background-generator.php:85
+msgid "Invoices generated successfully. Reload the page to see the invoices."
+msgstr ""
+
+#: includes/class-settings.php:660
+msgid "Invoices in My Orders"
+msgstr ""
+
+#: index.php:2459
+msgid "Invoices not required for free orders"
+msgstr ""
+
+#: includes/views/html-metabox.php:21
+msgid "Invoicing has been disabled for this order because:"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:60
+msgid "Issue date"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:165
+msgid ""
+"It is important to point out that this extension was not created by Billingo,"
+" so if you have any questions about the operation of the extension, please "
+"contact me at one of the following contacts:"
+msgstr ""
+
+#: includes/class-settings.php:533
+msgid ""
+"It will be collected at the end of the checkout form. It is stored in the "
+"order details and will be visible on the invoice too. If you need to change "
+"this after the order has been created, you can use the \\\"adoszam\\\" "
+"custom field"
+msgstr ""
+
+#: includes/class-settings.php:465
+msgid ""
+"It will check for paid invoices every X minutes in the Billingo system. "
+"Recommended value is 30 minutes."
+msgstr ""
+
+#: includes/class-helpers.php:17
+msgid "Italian"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:12
+#: includes/views/html-modal-generator.php:63
+#: includes/views/html-metabox.php:153
+msgid "Language"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:157
+msgid "Leave a review"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:31
+#: includes/views/html-admin-sidebar.php:75
+msgid "License key"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:38
+msgid "License type"
+msgstr ""
+
+#: includes/views/html-product-options.php:23
+#: includes/views/html-variable-options.php:21
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:34
+msgid "Line item comment"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:14
+msgid "Line item entitlement"
+msgstr ""
+
+#: includes/class-product-options.php:35
+#: includes/views/html-product-options.php:32
+#: includes/views/html-variable-options.php:29
+msgid "Line item name"
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:11
+msgid "Line item(product)"
+msgstr ""
+
+#: includes/class-helpers.php:73
+msgid "Loan"
+msgstr ""
+
+#: index.php:1587 includes/views/html-admin-payment-methods.php:22
+#: includes/views/html-admin-automations.php:91
+#: includes/views/html-admin-automations.php:172
+#: includes/views/html-metabox.php:60 includes/views/html-modal-grouped.php:72
+msgid "Mark as paid"
+msgstr ""
+
+#: includes/views/html-metabox.php:58
+msgid "Mark as paid "
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:26
+msgid "Name"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:136
+msgid "NAV tax number validation"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:91
+msgid "net"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:82
+msgid "Net price"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:141
+msgid "Net total"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:49
+msgid "Next payment"
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:47
+msgid "No invoice has been made"
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:65
+msgid "No reverse invoice has been made"
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:40
+msgid "None"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:81
+#: includes/views/html-admin-accounts.php:127
+msgid "Not conditional"
+msgstr ""
+
+#: includes/class-conditions.php:116
+msgid "Not equal"
+msgstr ""
+
+#: includes/class-product-options.php:42
+#: includes/views/html-modal-generator.php:81
+#: includes/views/html-invoice-preview.php:153
+#: includes/views/html-metabox.php:172
+msgid "Note"
+msgstr ""
+
+#: includes/class-settings.php:312
+msgid "Notes"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:35
+msgid "Number"
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:85
+#: includes/views/html-admin-advanced.php:133
+#: includes/views/html-admin-automations.php:106
+#: includes/views/html-admin-automations.php:187
+#: includes/views/html-admin-notes.php:39
+#: includes/views/html-admin-notes.php:76
+#: includes/views/html-admin-vat-overrides.php:78
+#: includes/views/html-admin-vat-overrides.php:139
+msgid "of the following match"
+msgstr ""
+
+#: index.php:1362
+msgid "Offer successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1362
+msgid "Offer successfully generated."
+msgstr ""
+
+#: includes/views/html-admin-advanced.php:83
+#: includes/views/html-admin-advanced.php:131
+#: includes/views/html-admin-automations.php:104
+#: includes/views/html-admin-automations.php:185
+#: includes/views/html-admin-notes.php:37
+#: includes/views/html-admin-notes.php:74
+#: includes/views/html-admin-vat-overrides.php:76
+#: includes/views/html-admin-vat-overrides.php:137
+msgid "One"
+msgstr ""
+
+#: includes/class-helpers.php:83
+msgid "Online credit card"
+msgstr ""
+
+#: includes/views/html-metabox.php:123
+msgid "Options"
+msgstr ""
+
+#: includes/class-conditions.php:67
+msgid "Order currency"
+msgstr ""
+
+#: includes/views/html-notice-error.php:12
+msgid "Order details"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:48
+msgid "Order has a booking"
+msgstr ""
+
+#: includes/class-settings.php:470
+msgid "Order status after syncing"
+msgstr ""
+
+#: includes/class-ipn.php:105
+msgid "Order status changed with Billingo bank sync."
+msgstr ""
+
+#: includes/class-conditions.php:29 includes/views/html-admin-accounts.php:31
+msgid "Order type"
+msgstr ""
+
+#: includes/class-settings.php:702
+msgid "Other settings"
+msgstr ""
+
+#: includes/class-conditions.php:59
+msgid "Outside of the EU"
+msgstr ""
+
+#: includes/class-settings.php:390
+msgid ""
+"Overwrite the bank account number, the invoice block and the language based "
+"on conditional logic."
+msgstr ""
+
+#: includes/views/html-metabox.php:57 includes/views/html-metabox.php:63
+msgid "Paid"
+msgstr ""
+
+#: index.php:1584
+#, php-format
+msgid "Paid on: %s"
+msgstr ""
+
+#: includes/class-settings.php:281 includes/class-settings.php:292
+#: includes/views/html-modal-generator.php:74
+#: includes/views/html-metabox.php:164
+msgid "Paper"
+msgstr ""
+
+#: includes/class-health-check.php:209
+msgid "Path"
+msgstr ""
+
+#: includes/class-helpers.php:87
+msgid "Paylike"
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:67
+msgid "Payment date"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:87
+#: includes/views/html-admin-automations.php:86
+#: includes/views/html-admin-automations.php:167
+#: includes/views/html-metabox.php:178
+msgid "Payment deadline"
+msgstr ""
+
+#: includes/class-settings.php:297
+#: includes/views/html-admin-payment-methods.php:21
+msgid "Payment deadline(days)"
+msgstr ""
+
+#: includes/class-conditions.php:21
+#: includes/views/html-admin-payment-methods.php:19
+#: includes/views/html-admin-accounts.php:15
+#: includes/views/html-invoice-preview.php:69
+msgid "Payment method"
+msgstr ""
+
+#: includes/class-health-check.php:219 includes/class-settings.php:450
+msgid "Payment methods"
+msgstr ""
+
+#: includes/class-helpers.php:88
+msgid "Payoneer"
+msgstr ""
+
+#: includes/class-helpers.php:84
+msgid "PayPal"
+msgstr ""
+
+#: includes/class-helpers.php:85
+msgid "PayPal post-paid"
+msgstr ""
+
+#: includes/class-helpers.php:86
+msgid "PayU"
+msgstr ""
+
+#: index.php:656 index.php:771 index.php:814 index.php:843 index.php:875
+#: includes/class-settings.php:104 includes/class-settings.php:363
+#: includes/views/html-product-options.php:14
+#: includes/views/html-variable-options.php:13
+msgid "pcs"
+msgstr ""
+
+#: includes/class-helpers.php:89
+msgid "Pick Pack Pont"
+msgstr ""
+
+#: includes/class-vat-number.php:73
+msgctxt "placeholder"
+msgid "12345678-1-23"
+msgstr ""
+
+#: includes/views/html-notice-v3.php:15
+msgid ""
+"Please <strong> verify that your invoices are properly created </strong> for "
+"new orders once you've made the necessary changes!"
+msgstr ""
+
+#: includes/class-helpers.php:90
+msgid "Post office cheque"
+msgstr ""
+
+#: includes/class-helpers.php:91
+msgid "Postal voucher"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:31
+msgid "Postcode"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:86
+msgid "Premium support and a lot more"
+msgstr ""
+
+#: includes/views/html-notice-bulk.php:19
+msgid "Print"
+msgstr ""
+
+#: includes/class-bulk-actions.php:27
+msgid "Print Billingo invoices"
+msgstr ""
+
+#: includes/class-health-check.php:200 includes/views/html-admin-sidebar.php:66
+msgid "PRO version"
+msgstr ""
+
+#: index.php:2050
+msgid "Pro version"
+msgstr ""
+
+#: includes/class-conditions.php:36 includes/views/html-admin-accounts.php:38
+msgid "Product category"
+msgstr ""
+
+#: index.php:1935
+msgid "Proform invoice deleted successfully."
+msgstr ""
+
+#: index.php:1936
+#, php-format
+msgid ""
+"Proform invoice deleted successfully. This was the proforma invoice number: "
+"%s"
+msgstr ""
+
+#: index.php:1897
+msgid "Proform not found."
+msgstr ""
+
+#: includes/class-conditions.php:47 includes/class-helpers.php:28
+#: includes/emails/email-billingo-section.php:16
+#: includes/views/html-admin-payment-methods.php:23
+#: includes/views/html-modal-generator.php:39
+#: includes/views/html-metabox.php:196
+#: includes/emails/plain/email-billingo-section.php:14
+msgid "Proforma invoice"
+msgstr ""
+
+#: index.php:1034
+msgid ""
+"Proforma invoice successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1034
+msgid "Proforma invoice successfully generated."
+msgstr ""
+
+#: includes/class-settings.php:629
+msgid "Proforma pairing"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:104
+msgid ""
+"Próbáld ki az ingyenes csomagpontos bővítményt, ami támogatja az összes "
+"népszerű futárszolgálat átvételi helyeit. A PRO verzióval címkét is "
+"generálhatsz, házhozszállításra is, automata csomagkövetéssel."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:89
+msgid "Purchase PRO version"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:80
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-settings.php:361
+msgid "Quantity unit"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:154
+msgid "Rating"
+msgstr ""
+
+#: includes/views/html-metabox.php:86
+msgid "Reason for cancelling the invoice(optional)"
+msgstr ""
+
+#: includes/class-settings.php:680 includes/class-helpers.php:33
+msgid "Receipt"
+msgstr ""
+
+#: index.php:1287
+msgid "Receipt generation failed for an unknown reason."
+msgstr ""
+
+#: index.php:1273
+msgid "Receipt generation failed."
+msgstr ""
+
+#: index.php:1341
+msgid "Receipt successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1341
+msgid "Receipt successfully generated."
+msgstr ""
+
+#: includes/class-background-generator.php:87
+msgid "Refresh"
+msgstr ""
+
+#: index.php:873 includes/views/html-admin-vat-overrides.php:15
+msgid "Refund"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:57
+msgid "Reload license"
+msgstr ""
+
+#: includes/views/html-metabox.php:80
+msgid "Resend"
+msgstr ""
+
+#: includes/views/html-metabox.php:80
+msgid "Resent"
+msgstr ""
+
+#: includes/class-helpers.php:30 includes/emails/email-billingo-section.php:21
+#: includes/views/html-modal-generator.php:47
+#: includes/views/html-notice-bulk.php:63 includes/views/html-metabox.php:91
+#: includes/emails/plain/email-billingo-section.php:18
+msgid "Reverse invoice"
+msgstr ""
+
+#: includes/views/html-metabox.php:91
+msgctxt "Reverse invoice"
+msgid "Generate reverse invoice"
+msgstr ""
+
+#: index.php:1864
+msgid "Reverse invoice created successfully."
+msgstr ""
+
+#: index.php:1865
+#, php-format
+msgid "Reverse invoice created successfully. Invoice number: %s"
+msgstr ""
+
+#: includes/class-settings.php:643
+msgid "Reverse invoice pairing"
+msgstr ""
+
+#: includes/class-helpers.php:20
+msgid "Romanian"
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:41
+msgid "Round to 1"
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:43
+msgid "Round to 10"
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:42
+msgid "Round to 5"
+msgstr ""
+
+#: includes/class-health-check.php:226 includes/class-settings.php:378
+#: includes/views/html-admin-rounding.php:20
+msgid "Rounding"
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:14
+msgid "Rounding:"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:101
+#: includes/views/html-admin-automations.php:182
+msgid "Run this automation, if"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:27
+msgid "Selected orders:"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:33
+msgid "Seller"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:34
+msgid "Seller Name"
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:35
+#: includes/views/html-admin-vat-overrides.php:96
+msgid "Set"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:14
+msgid "Setting up VAT/TAX rates in WooCommerce shops."
+msgstr ""
+
+#: index.php:2034 includes/class-health-check.php:66
+#: includes/class-health-check.php:77 includes/class-health-check.php:111
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:419
+msgid ""
+"Settings related to automatic invoicing. If the mark as completed option is "
+"checked for a specific payment method, the invoice will be marked as paid in "
+"Billingo if you close the order. If you turn on the proforma invoice option, "
+"a proforma invoice will be created for the order. The payment deadline can "
+"be set individually(the global option is above)"
+msgstr ""
+
+#: includes/class-settings.php:483
+msgid "Settings related to discounts and coupons on the invoice"
+msgstr ""
+
+#: includes/class-settings.php:589
+msgid "Settings related to sending the invoice to the customer."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:31
+msgid "Settings related to WooCommerce Bookings."
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:12
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-conditions.php:25 includes/views/html-admin-accounts.php:19
+msgid "Shipping method"
+msgstr ""
+
+#: includes/class-settings.php:368
+msgid "Show SKUs"
+msgstr ""
+
+#: includes/class-settings.php:369
+msgid "Show the product SKU in the invoice line item description."
+msgstr ""
+
+#: includes/class-helpers.php:93
+msgid "Skrill"
+msgstr ""
+
+#: index.php:702
+msgid "SKU: "
+msgstr ""
+
+#: includes/class-helpers.php:21
+msgid "Slovak"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:37
+msgid "Staircase"
+msgstr ""
+
+#: includes/class-background-generator.php:86
+msgid "Stop"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:33
+msgid "Street"
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:34
+msgid "Street type"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:42
+msgid "Subscription"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:164
+msgid "Support"
+msgstr ""
+
+#: includes/class-settings.php:706
+msgid "Switch first name / last name"
+msgstr ""
+
+#: includes/class-settings.php:457
+msgid "Sync bank transactions"
+msgstr ""
+
+#: includes/class-settings.php:462
+msgid "Sync interval(minutes)"
+msgstr ""
+
+#: includes/class-helpers.php:92
+msgid "SZÉP card"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:11
+msgid "TAX rate setup"
+msgstr ""
+
+#: includes/class-settings.php:564
+msgid "Technical user password"
+msgstr ""
+
+#: includes/class-settings.php:559
+msgid "Technical username"
+msgstr ""
+
+#: includes/views/html-notice-welcome.php:11
+msgid ""
+"Thank you for using this extension. To get started, go to the settings page "
+"and enter your invoicing details. If you are not aware of it, there's a PRO "
+"version of this extension, which offers a lot more features compared to the "
+"free version, for example, automatic invoice generation, bulk actions, and a "
+"lot more."
+msgstr ""
+
+#: includes/class-health-check.php:107
+msgid ""
+"The <strong>Woo Billingo Plus</strong> extension's debug mode is turned on. "
+"Make sure you turned this off if you are using it in a live environment."
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:33
+msgid "The combined invoice will be displayed on the selected order."
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:50
+msgid "The data was retrieved from the NAV database."
+msgstr ""
+
+#: includes/views/html-notice-migrate.php:10
+msgid ""
+"The database contains settings and invoices created by the official Billingo "
+"plugin. Want to migrate these settings and invoices to Woo Billingo Plus? "
+"After the migration, the official extension will be disabled."
+msgstr ""
+
+#: includes/class-settings.php:547
+msgid ""
+"The default priority is 35, which will place the field just after the "
+"company name field. Change this number if you want to place it somewhere "
+"else."
+msgstr ""
+
+#: includes/emails/email-billingo-section.php:27
+#: includes/emails/plain/email-billingo-section.php:23
+msgid "The deposit invoice for the order can be downloaded from here:"
+msgstr ""
+
+#: includes/class-settings.php:574
+msgid "The first 8 digits of your VAT number"
+msgstr ""
+
+#: includes/class-emails.php:158
+#, php-format
+msgid "The following document was successfully created: %s"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:27
+msgid "The following license key is expired."
+msgstr ""
+
+#: includes/emails/invoice-error.php:10 includes/views/html-notice-error.php:10
+#, php-format
+msgid ""
+"The invoice for order %s could not be created automatically for some reason. "
+"You will see the exact error in the order notes."
+msgstr ""
+
+#: includes/emails/email-billingo-section.php:12
+#: includes/emails/plain/email-billingo-section.php:11
+msgid "The invoice for the order can be downloaded from here:"
+msgstr ""
+
+#: index.php:1694
+msgid "The invoice has already been marked as paid."
+msgstr ""
+
+#: includes/views/html-metabox.php:101
+msgid ""
+"The invoice will be created automatically if the status of the order changes "
+"to:"
+msgstr ""
+
+#: includes/class-settings.php:438
+msgid ""
+"The invoice will be generated automatically if the order is in this status."
+msgstr ""
+
+#: includes/views/html-notice-v3.php:13
+msgid ""
+"The latest version of Woo Billingo Plus uses the Billingo API V3, for which "
+"you need to generate a <strong> new API key </strong> and enter it in the "
+"settings. You will also need to select the <strong> bank account number "
+"</strong> used for billing."
+msgstr ""
+
+#: includes/views/html-metabox.php:51
+msgid "The PDF is being downloaded"
+msgstr ""
+
+#: includes/emails/email-billingo-section.php:22
+#: includes/emails/plain/email-billingo-section.php:19
+msgid ""
+"The previous invoice has been canceled. The reverse invoice for the order "
+"can be downloaded from here:"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:23
+msgid "The PRO version is active"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:26
+msgid "The PRO version is expired"
+msgstr ""
+
+#: includes/emails/email-billingo-section.php:17
+#: includes/emails/plain/email-billingo-section.php:15
+msgid "The proforma invoice for the order can be downloaded from here:"
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:35
+msgid ""
+"The status of the orders above will change to this after the invoice is "
+"created:"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:137
+#, php-format
+msgid ""
+"The tax number validation is currently enabled and you entered your "
+"credentials to make it work. Here you can check that everything is working "
+"well by validating your own tax number(%s):"
+msgstr ""
+
+#: includes/class-vat-number.php:136
+msgid "The VAT number format is not valid."
+msgstr ""
+
+#: includes/class-vat-number.php:131
+msgid "The VAT number is not valid."
+msgstr ""
+
+#: includes/class-settings.php:321
+msgid ""
+"The VAT rate that is visible on the invoice. By default, it will use the "
+"values set in WooCommerce / Tax menu, if the values match the following tax "
+"types: AM, EU, FAD, ÁTHK, AAM, AKK, TAM, EUK, MAA. If there's no match, it "
+"will calculate the percentage based on the net and gross prices."
+msgstr ""
+
+#: includes/class-health-check.php:53
+msgid ""
+"The website and hosting meet all the requirements for a successful invoice "
+"generation with the Woo Billingo Plus extension."
+msgstr ""
+
+#: includes/class-health-check.php:142
+msgid ""
+"The Woo Billingo Plus extension was able to communicate with Billingo with "
+"the API key. Looks like everything is working correctly."
+msgstr ""
+
+#: includes/class-health-check.php:186
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo because "
+"you don't have permission to use the API service. Make sure you have a valid "
+"subscription. This is the original error message:"
+msgstr ""
+
+#: includes/class-health-check.php:177
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. Make "
+"sure the exact time on your server is the same as the time on Billingo's "
+"server. This is the original error message:"
+msgstr ""
+
+#: includes/class-health-check.php:168
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. The "
+"issue is most likely an invalid API key. This is the original error message:"
+msgstr ""
+
+#: includes/class-health-check.php:160
+msgid ""
+"The Woo Billingo Plus extension was unable to connect with Billingo. This is "
+"the original error message:"
+msgstr ""
+
+#: index.php:1592
+msgid "There's no invoice for this order yet"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:37
+msgid ""
+"This description will appear below the line item, if it was a booking. You "
+"can display the booking details and more with the following shortcodes: "
+"{booking_start_date}, {booking_end_date}, {booking_id}, "
+"{booking_person_count}, {booking_person_counts}."
+msgstr ""
+
+#: includes/class-settings.php:902
+msgid ""
+"This feature requires the ZipArchive function and by the looks of it, this "
+"is not enabled on your website. You can ask your hosting provider for help."
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:61
+msgid "This invoice was paid by the customer"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:160
+msgid ""
+"This is just a preview of the invoice and not all parameters will match the "
+"real invoice, like the colors, logo, language, and seller details."
+msgstr ""
+
+#: includes/class-settings.php:496
+msgid ""
+"This is the line item name if a coupon is applied to the order. The default "
+"value is \"Discount\""
+msgstr ""
+
+#: includes/class-product-options.php:51
+#: includes/views/html-product-options.php:17
+#: includes/views/html-variable-options.php:16
+msgid ""
+"This is the unit type for the line item on the invoice. The default value is "
+"set in the plugin settings."
+msgstr ""
+
+#: includes/class-product-options.php:44
+#: includes/views/html-product-options.php:26
+#: includes/views/html-variable-options.php:24
+msgid "This note will be visible on the invoice line item."
+msgstr ""
+
+#: includes/class-settings.php:617
+msgid ""
+"This option attaches the invoices to the WooCommerce e-mails. You should "
+"disable the invoice notification option in this case. You can select which "
+"document type is attached to the WooCommerce e-mails."
+msgstr ""
+
+#: includes/class-settings.php:610
+msgid ""
+"This option places the invoice download links into the WooCommerce e-mails. "
+"You should disable the invoice notification option in this case. You can "
+"select which document type is attached to the WooCommerce e-mails."
+msgstr ""
+
+#: includes/class-settings.php:364
+msgid ""
+"This will be the default quantity unit on the invoice. You can change this "
+"for each product one-by-one on the Advanced tab too."
+msgstr ""
+
+#: includes/class-settings.php:309
+msgid ""
+"This will be used as the completion date on the invoice by default. You can "
+"overwrite this when you manually create an invoice, or with a custom "
+"automation."
+msgstr ""
+
+#: includes/class-settings.php:729
+msgid ""
+"This will display the download icons in the Tools column on the orders "
+"management table."
+msgstr ""
+
+#: index.php:478
+msgid ""
+"Tip: check if you have a subscription for API & Bulk Invoicing on Billingo."
+msgstr ""
+
+#: includes/views/html-metabox.php:4
+msgid "To create an invoice, you must enter the API key in the settings"
+msgstr ""
+
+#: includes/class-health-check.php:73
+msgid ""
+"To use <strong>Woo Billingo Plus</strong>, you need to select a document "
+"block in the settings."
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:145
+msgid "Total due"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:136
+msgid "Total due:"
+msgstr ""
+
+#: includes/class-helpers.php:94
+msgid "Transferwise"
+msgstr ""
+
+#: includes/views/html-metabox.php:25
+msgid "Turn back on"
+msgstr ""
+
+#: includes/views/html-product-options.php:41
+#: includes/views/html-variable-options.php:37
+msgid "Turn off auto invoicing"
+msgstr ""
+
+#: includes/views/html-modal-generator.php:71
+#: includes/views/html-metabox.php:161
+msgid "Type"
+msgstr ""
+
+#: includes/class-pro.php:62 includes/class-pro.php:76
+msgid ""
+"Unable to activate the PRO version. Please make sure that the entered data "
+"is correct."
+msgstr ""
+
+#: index.php:487
+msgid "Unable to create the customer."
+msgstr ""
+
+#: includes/class-pro.php:107
+msgid ""
+"Unable to deactivate the PRO version. Please make sure that the entered data "
+"is correct."
+msgstr ""
+
+#: includes/views/html-admin-automations.php:95
+#: includes/views/html-admin-automations.php:176
+msgid "Unique ID"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:81
+msgid "Unit price"
+msgstr ""
+
+#: includes/class-product-options.php:49
+#: includes/views/html-product-options.php:13
+#: includes/views/html-variable-options.php:12
+msgid "Unit type"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:40
+msgid "Unlimited"
+msgstr ""
+
+#: includes/compatibility/class-compatibility.php:22
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/views/html-notice-migrate.php:9
+msgid "Update Woo Billingo Plus"
+msgstr ""
+
+#: includes/views/html-notice-welcome.php:13
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/class-helpers.php:95
+msgid "Upwork"
+msgstr ""
+
+#: includes/views/html-admin-accounts.php:27
+msgid "US dollars"
+msgstr ""
+
+#: includes/class-conditions.php:86
+msgid "VAT ID"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:40
+msgid "VAT Number"
+msgstr ""
+
+#: includes/class-vat-number.php:72 includes/class-vat-number.php:97
+#: includes/class-vat-number.php:104 includes/class-vat-number.php:159
+#: includes/class-settings.php:524 includes/views/html-metabox-vat.php:13
+#: includes/views/html-metabox-vat.php:19
+msgid "VAT number"
+msgstr ""
+
+#: includes/class-settings.php:536
+msgid "VAT number field always visible"
+msgstr ""
+
+#: includes/class-settings.php:529
+msgid "VAT number field during checkout"
+msgstr ""
+
+#: includes/class-settings.php:543
+msgid "VAT number field position"
+msgstr ""
+
+#: index.php:309
+msgid "VAT Number info"
+msgstr ""
+
+#: includes/class-settings.php:550
+msgid "VAT number validation with NAV"
+msgstr ""
+
+#: includes/class-settings.php:319
+msgid "VAT rates"
+msgstr ""
+
+#: includes/views/html-admin-vat-overrides.php:44
+#: includes/views/html-admin-vat-overrides.php:105
+msgid "vat type to"
+msgstr ""
+
+#: includes/views/html-invoice-preview.php:83
+msgid "VAT value"
+msgstr ""
+
+#: index.php:1571
+#, php-format
+msgid "via %s"
+msgstr ""
+
+#. Author of the plugin
+msgid "Viszt Péter"
+msgstr ""
+
+#: includes/class-helpers.php:96
+msgid "Voucher"
+msgstr ""
+
+#: index.php:1379
+msgid "Waybill successfully generated and sent to the customer via e-mail."
+msgstr ""
+
+#: index.php:1379
+msgid "Waybill successfully generated."
+msgstr ""
+
+#: includes/views/html-metabox-vat.php:16
+msgid ""
+"When creating the order, it was not possible to retrieve the tax number data "
+"from NAV."
+msgstr ""
+
+#: includes/class-settings.php:652
+msgid "Where should the download links be included in the emails?"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:80
+msgid "Why should I use the PRO version?"
+msgstr ""
+
+#: includes/class-helpers.php:72
+msgid "Wire transfer"
+msgstr ""
+
+#. Name of the plugin
+#: index.php:303 index.php:1553 includes/class-health-check.php:24
+#: includes/class-health-check.php:50 includes/class-health-check.php:95
+#: includes/class-health-check.php:137 includes/class-settings.php:13
+#: includes/views/html-status-report.php:16
+#: includes/views/html-notice-welcome.php:10
+msgid "Woo Billingo Plus"
+msgstr ""
+
+#: includes/class-health-check.php:87
+msgid "Woo Billingo Plus debug mode"
+msgstr ""
+
+#: index.php:2046
+msgid "Woo Billingo Plus Documentation"
+msgstr ""
+
+#: includes/views/html-notice-migrated.php:10
+msgid ""
+"Woo Billingo Plus has finished syncing previously created invoices. The "
+"official Billingo plugin has been disabled."
+msgstr ""
+
+#: includes/class-health-check.php:120
+msgid "Woo Billingo Plus invoice generation"
+msgstr ""
+
+#: includes/views/html-product-options.php:9
+msgid "Woo Billingo Plus invoice settings"
+msgstr ""
+
+#: index.php:2050
+msgid "Woo Billingo Plus Pro version"
+msgstr ""
+
+#: includes/class-health-check.php:42 includes/class-health-check.php:47
+msgid "Woo Billingo Plus requirements"
+msgstr ""
+
+#: index.php:2034 includes/views/html-status-report.php:16
+msgid "Woo Billingo Plus Settings"
+msgstr ""
+
+#: includes/views/html-notice-migrating.php:9
+msgid "Woo Billingo Plus sync in progress"
+msgstr ""
+
+#: includes/views/html-notice-migrating.php:10
+msgid ""
+"Woo Billingo Plus syncs orders in the background so you can continue to see "
+"previously created invoices in your orders. If you have a lot of orders, "
+"this may take a few minutes."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:29
+#: includes/compatibility/modules/class-wc-billingo-plus-bookings.php:46
+msgid "WooCommerce Bookings"
+msgstr ""
+
+#: includes/class-settings.php:356
+msgid "WPML, Polylang & Translatepress compatibility"
+msgstr ""
+
+#: includes/class-settings.php:569
+msgid "XML Signature"
+msgstr ""
+
+#: includes/views/html-notice-migrate.php:12
+msgid "Yes, migrate the data"
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:12
+msgid ""
+"You are using the default VAT rate and taxes are disabled in WooCommerce, so "
+"the VAT rate will be 0% on the invoice."
+msgstr ""
+
+#: includes/class-settings.php:272
+msgid ""
+"You can create a document block on Billingo's website under Settings / "
+"Document blocks. If you don't see your document block in the dropdown, click "
+"on the refresh icon."
+msgstr ""
+
+#: includes/views/html-admin-notes.php:55
+msgid "You can create multiple notes with the PRO version"
+msgstr ""
+
+#: includes/class-settings.php:508
+msgid ""
+"You can display the original price and the amount of the discount in the "
+"comment of the line item. Use these shortcodes: {eredeti_ar}, "
+"{kedvezmeny_merteke}, {kedvezmenyes_ar}"
+msgstr ""
+
+#: includes/class-settings.php:669
+msgid ""
+"You can enter multiple email addresses separated with a comma and every "
+"document created will be forwarded to these addresses. You can use this to "
+"setup automation with Zapirt or emailitin.com for example."
+msgstr ""
+
+#: includes/class-settings.php:555
+msgid ""
+"You can find more info about setting this up in the <a href=\"https:"
+"//visztpeter.me/gyik/adoszam-mezo-2/\">documentation</a>."
+msgstr ""
+
+#: includes/class-settings.php:676
+msgid ""
+"You can find settings related to the E-Receipt. With this option, you can "
+"collect just the name and email address of the buyer. Instead of an invoice, "
+"a simple receipt will be generated that the user receives via email. Ideal "
+"for digital products, tickets. Please consult with your accountant first to "
+"make sure this is a good solution for you. If the buyer wants a regular "
+"invoice, a checkbox is added for that on the checkout form."
+msgstr ""
+
+#: includes/views/html-product-options.php:62
+#: includes/views/html-variable-options.php:56
+msgid ""
+"You can overwrite the price of the product on the invoice with this "
+"option(enter a net price)."
+msgstr ""
+
+#: includes/class-settings.php:265
+msgid ""
+"You can register your bank account number on Billingo's website under "
+"Settings / Bank accounts. If you don't see your bank account in the dropdown,"
+" click on the refresh icon."
+msgstr ""
+
+#: includes/views/html-admin-rounding.php:56
+msgid ""
+"You can set the rounding type for each currency you sell in. This changes "
+"the total value on the invoice."
+msgstr ""
+
+#: includes/class-settings.php:243
+msgid ""
+"You can set up more accounts based on various conditions, like payment and "
+"shipping methods."
+msgstr ""
+
+#: includes/class-settings.php:314
+msgid ""
+"You can use the following shortcodes in the description that appears on the "
+"invoice:<br>{customer_email} - The customer's e-mail address<br>"
+"{customer_phone} - The customer's phone number<br>{transaction_id} - "
+"Payment's transaction ID<br>{order_number} - Order number<br>"
+"{shipping_address} - Shipping address<br>{customer_notes} - Customer notes"
+msgstr ""
+
+#: includes/class-bulk-actions.php:182 includes/class-ipn.php:131
+#: includes/class-ajax.php:23 includes/class-ajax.php:38
+#: includes/class-ajax.php:52 includes/class-ajax.php:63
+#: includes/class-ajax.php:74 includes/class-grouped-invoice.php:32
+#: includes/class-background-generator.php:37
+#: includes/class-background-generator.php:53
+#: includes/class-health-check.php:130
+msgid "You do not have sufficient permissions to access this action."
+msgstr ""
+
+#: includes/class-receipt.php:140 includes/class-settings.php:911
+#: includes/class-settings.php:929
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:24
+msgid "You have successfully activated the PRO version."
+msgstr ""
+
+#: includes/class-health-check.php:62
+msgid ""
+"You need to enter your API V3 Key in the settings to use the <strong>Woo "
+"Billingo Plus</strong> extension."
+msgstr ""
+
+#: includes/views/html-modal-generator.php:107
+msgid "You need to select at least one order."
+msgstr ""
+
+#: includes/views/html-modal-grouped.php:47
+msgid "You need to select at least two orders."
+msgstr ""
+
+#: includes/views/html-admin-sidebar.php:146
+msgid ""
+"Your tax number could not be validated. Make sure your NAV username and "
+"password is correct. You can find more information in the log files."
+msgstr ""
+
+#: includes/class-settings.php:502
+msgid "{kedvezmeny_merteke} discount with the following coupon code: {kupon}"
+msgstr ""
+
+#: includes/views/html-admin-automations.php:81
+#: includes/views/html-admin-automations.php:163
+msgid "± day"
+msgstr ""

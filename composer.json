@@ -1,0 +1,8 @@
+{
+	"require": {
+		"krsman/pdf-merger": "dev-master",
+		"barryvdh/composer-cleanup-plugin": "0.2.x"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

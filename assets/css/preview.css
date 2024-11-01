@@ -1,0 +1,221 @@
+@page {
+  margin: 0; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  font-size: 13px;
+  line-height: 20px; }
+
+.sheet {
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+  width: 210mm;
+  min-height: 296mm;
+  padding: 10mm;
+  overflow: visible;
+  height: auto; }
+
+@media screen {
+  body {
+    background: #e0e0e0; }
+
+  .sheet {
+    background: white;
+    box-shadow: 0 0.5mm 2mm rgba(0, 0, 0, 0.3);
+    margin: 5mm auto; } }
+@media print {
+  body {
+    width: 210mm; } }
+.footer {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #999; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E24848;
+  padding: 20px 0;
+  margin: 0 0 10px 0; }
+  .header .logo {
+    width: 70px;
+    height: 70px;
+    background: #E24848;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px; }
+
+h1.title {
+  font-size: 40px;
+  font-weight: bold; }
+
+.subtitle {
+  text-align: left;
+  padding: 20px 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 30px;
+  font-weight: normal;
+  color: #868789; }
+
+.sub-header {
+  display: flex;
+  line-height: 1.3;
+  padding-bottom: 20px; }
+  .sub-header .seller, .sub-header .buyer {
+    width: 50%; }
+  .sub-header .seller p {
+    color: #868789;
+    padding: 15px 0 0 0;
+    font-size: 12px; }
+    .sub-header .seller p strong {
+      text-transform: uppercase;
+      font-size: 11px; }
+  .sub-header h2 {
+    margin: 0 0 5px 0; }
+  .sub-header h3 {
+    margin: 0 0 20px 0; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #868789; }
+
+.info {
+  display: flex;
+  margin: 0 0 20px 0;
+  border-top: 1px solid #E24848;
+  border-bottom: 1px solid #E24848;
+  padding: 10px 0; }
+  .info ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3; }
+    .info ul li {
+      width: 50%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .info ul li strong {
+        text-transform: uppercase;
+        color: #868789;
+        font-size: 11px; }
+
+.invoice-body {
+  display: flex;
+  flex-direction: column; }
+  .invoice-body .grand-total {
+    order: 1;
+    text-align: right;
+    padding-bottom: 20px; }
+    .invoice-body .grand-total strong {
+      color: #E24848;
+      text-transform: uppercase;
+      font-size: 11px; }
+    .invoice-body .grand-total span {
+      font-size: 30px; }
+  .invoice-body .total {
+    order: 3; }
+
+table.line-items {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  order: 2;
+  margin: 0 0 20px 0; }
+  table.line-items thead {
+    font-weight: bold; }
+    table.line-items thead th {
+      background: #F0F1F1;
+      border-top: 1px solid #000;
+      text-transform: uppercase;
+      text-align: right;
+      padding: 10px 5px;
+      font-size: 11px; }
+      table.line-items thead th:nth-child(2) {
+        text-align: left;
+        padding-left: 0; }
+  table.line-items tbody tr:nth-child(2n+1) {
+    background: #fff; }
+  table.line-items tbody tr.item-note td {
+    border-top: none;
+    padding: 0 0 5px 5px;
+    color: #868789; }
+  table.line-items tbody tr.has-note td {
+    padding: 10px 5px 0 5px; }
+  table.line-items tbody tr:last-child td {
+    border-bottom: 1px solid #C5C6C8; }
+  table.line-items tbody td {
+    text-align: right;
+    padding: 10px 5px;
+    border-top: 1px solid #C5C6C8;
+    color: #868789; }
+    table.line-items tbody td:first-child {
+      color: #E24848; }
+    table.line-items tbody td:nth-child(3), table.line-items tbody td:last-child {
+      color: #000; }
+    table.line-items tbody td:nth-child(2) {
+      text-align: left; }
+      table.line-items tbody td:nth-child(2) span {
+        display: block;
+        color: #000; }
+      table.line-items tbody td:nth-child(2) .note {
+        font-size: 11px;
+        font-style: italic; }
+  table.line-items tfoot {
+    font-weight: bold;
+    text-align: right; }
+    table.line-items tfoot tr td {
+      padding: 10px 5px; }
+    table.line-items tfoot tr td:first-child {
+      text-align: left;
+      padding-left: 0; }
+
+.total {
+  text-align: right;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #E24848;
+  border-bottom: 1px solid #E24848; }
+  .total th {
+    text-transform: uppercase;
+    color: #868789;
+    font-size: 11px; }
+  .total h2 {
+    font-weight: normal;
+    margin: 0 0 10px 0; }
+  .total h3 {
+    font-weight: bold;
+    color: #00ADEF;
+    font-size: 20px; }
+
+.invoice-note {
+  padding-top: 10px; }
+  .invoice-note p {
+    margin: 0 0 10px 0;
+    font-style: italic; }
+
+.debug {
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px; }
+  .debug textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2); }
+
+/*# sourceMappingURL=preview.css.map */
